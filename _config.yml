@@ -1,9 +1,9 @@
 # Setup
 title:               Programa Contexto
 tagline:             Programa contexto
-url:                 http://javierarques.github.io/contexto
+url:                 http://javierarques.github.io/contexto/
 permalink:           /:title
-baseurl:             ""
+baseurl:             /contexto
 respository:         javierarques/contexto
 port: 3000
 lsi: false
