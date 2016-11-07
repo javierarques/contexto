@@ -1,0 +1,68 @@
+---
+layout: default
+title: Inicio
+nav_order: 0
+---
+
+<section class="Hero">
+  <div class="Hero-content">
+    <h1 class="text-hidden">Programa Contexto</h1>
+    <img src="./images/logo-contexto.svg" alt="Logo del Programa Contexto" width="244" height="auto"  class="marginBottom-xl"/>
+    <h2 class="color-white type-h5 fontWeight-normal lineHeight-md ">Programa de Investigación, Formación e Intervención con hombres penados por violencia contra la mujer </h2>
+  </div>
+</section>
+
+<div class="container Featured-list paddingTop-xl paddingBottom-xl">
+  <div class="GridRow GridRow--fromSmall-3">
+    <div class="GridColumn">
+      <a class="Featured">
+        <div class="Featured-image">
+          <img src="http://lorempixel.com/400/250/people" alt="Investigación" />
+          <h3 class="Featured-title"><span>Investigación</span></h3>
+        </div>
+      </a>
+    </div>
+    <div class="GridColumn">
+      <a class="Featured">
+        <div class="Featured-image">
+          <img src="http://lorempixel.com/400/250/city" alt='Formación'/>
+          <h3 class="Featured-title"><span>Formación</span></h3>
+        </div>
+      </a>
+    </div>
+    <div class="GridColumn">
+      <a class="Featured">
+        <div class="Featured-image">
+          <img src="http://lorempixel.com/400/250/nature" alt='Intervención'/>
+          <h3 class="Featured-title"><span>Intervención</span></h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<section class="padding-xl bg-primary textAlign-center">
+  <div class="container">
+    <h3 class="color-white fontWeight-light marginBottom-xl">¿Te ayudamos?</h3>
+    <p class="color-white">¿Tientes dificultades para conseguir vivir tus relaciones de pareja de manera saludable, positiva y sin violencia?</p>
+    <p>
+      <a href="" class="Button Button--outline">Pide ayuda</a>
+    </p>
+  </div>
+</section>
+
+<section class="posts">
+  {% for post in site.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | prepend:site.baseurl }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <p class="post-date">{{ post.date | date_to_string }}</p>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</section>

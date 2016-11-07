@@ -1,0 +1,13 @@
+<nav class="Nav" id="nav">
+  <ul class="Nav-menu">
+    {% assign navigation_pages = site.html_pages | sort: 'nav_order' %} {% for p in navigation_pages %}
+    {% if p.nav_order %}
+    <li class="Nav-menuItem">
+      <a {% if p.url == page.url %}class="Nav-menuLink is-active"{% else%}class="Nav-menuLink"{% endif %}href="{{ p.url }}" >{{ p.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  <button class="Nav-icon Nav-icon--toggle" id="navToggle">&#9776;</button>
+  <button class="Nav-icon Nav-icon--close" id="navClose">&#x2715;</button>
+</nav>

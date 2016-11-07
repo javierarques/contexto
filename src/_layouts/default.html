@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+{% if page.url == '/' %}
+  {% assign pageClass = 'home' %}
+{% else %}
+  {% assign pageClass = page.url | remove_first: '/' %}
+{% endif %}
+<body class="page-{{ pageClass }}">
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="./javascript/main.js"></script>
+</body>
+
+</html>

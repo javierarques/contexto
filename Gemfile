@@ -1,1 +1,2 @@
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 3.3'
+gem 'octopress-autoprefixer'

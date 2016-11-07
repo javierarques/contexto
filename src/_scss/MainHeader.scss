@@ -1,0 +1,26 @@
+.MainHeader {
+  @include clearfix;
+  position: absolute;
+  width: 100%;
+}
+
+.MainHeader-content {
+  display: flex;
+  max-width: $max-width;
+  padding: 1rem;
+  margin: auto;
+  align-items: center;
+}
+
+.MainHeader-title {
+  margin: 0;
+
+  img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+.MainHeader-nav {
+  margin-left: auto;
+}
