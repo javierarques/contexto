@@ -1,33 +1,30 @@
-# Setup
-title:            Programa Contexto
-tagline:          Programa contexto
-url:              http://javierarques.github.io/contexto/
-respository:      javierarques/contexto
-
-# Permalinks
-permalink:        /:title
-
-
-
-# Server
-source:           ./src
-destination:      ./_site
-host:             0.0.0.0
-port:             9001
-baseurl:          ""
-encoding:         UTF-8
-exclude:         ["node_modules", "vendor"]
-
-
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
-
-# Assets
+---
+title: Programa Contexto
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: Programa contexto
+url: http://javierarques.github.io/contexto/
+respository: javierarques/contexto
+permalink: "/:title"
+source: "./src"
+destination: "./_site"
+host: 0.0.0.0
+port: 9001
+baseurl: ''
+encoding: UTF-8
+exclude:
+- node_modules
+- vendor
+markdown: kramdown
+highlighter: rouge
 sass:
-  sass_dir:          _scss
-  style:            :compressed
-
-# Gem dependencies
+  sass_dir: _scss
+  style: :compressed
 gems:
-  - octopress-autoprefixer
+- octopress-autoprefixer
