@@ -1,0 +1,10 @@
+.Help {
+  background-image: url("/images/ayuda.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+
+  @include media-up(medium) {
+    background-position: left;
+  }
+}

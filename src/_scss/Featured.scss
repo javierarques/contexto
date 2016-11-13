@@ -1,51 +1,24 @@
 .Featured {
   display: block;
+  text-align: center;
 }
 
 .Featured-image {
-  position: relative;
-  margin-bottom: $spacer-sm;
-  transition: all 200ms linear;
-  overflow: hidden;
+  padding: 2rem;
+  text-align: center;
 
   img {
-    width: 100%;
+    width: 60px;
+    height: auto;
     transition: all 200ms ease-in-out;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(141deg, $color-brand-primary 0%, $color-brand-secondary 51%, $color-brand-tertiary 75%);
-    opacity: .8;
-    transition: all 400ms linear;
   }
 }
 
 .Featured-title {
-  font-size: rem(22px);
+  font-size: 24px;
+  color: #4A4A4A;
+  letter-spacing: 0;
   font-weight: $font-weight-light;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: flex;
-  margin: 0;
-  z-index: 1;
-  align-items: center;
-  justify-content: center;
-  transition: all 200ms ease-in-out;
-
-  span {
-    padding: .5rem .8rem;
-    color: #fff;
-  }
 }
 
 .Featured:hover {
@@ -58,4 +31,9 @@
   img {
     transform: scale(1.1);
   }
+}
+
+.Featured-description {
+  font-size: $font-size-sm;
+  color: $body-color;
 }

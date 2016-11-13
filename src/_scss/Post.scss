@@ -1,0 +1,19 @@
+.Post {
+  display: table;
+  width: 100%;
+  margin-bottom: $spacer-lg;
+}
+.Post-image {
+  display: table-cell;
+  width: 35%;
+  padding-right: 1rem;
+  vertical-align: top;
+}
+.Post-content {
+  display: table-cell;
+  vertical-align: top;
+}
+.Post-date {
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+}

@@ -15,54 +15,84 @@ nav_order: 0
 <div class="container Featured-list paddingTop-xl paddingBottom-xl">
   <div class="GridRow GridRow--fromSmall-3">
     <div class="GridColumn">
-      <a class="Featured">
+      <a class="Featured" href="/investigacion">
         <div class="Featured-image">
-          <img src="http://lorempixel.com/400/250/people" alt="Investigación" />
-          <h3 class="Featured-title"><span>Investigación</span></h3>
+          <img src="./images/investigacion.svg" alt="Investigación" width="60" height="auto" />
         </div>
+        <h3 class="Featured-title"><span>Investigación</span></h3>
+        <p class="Featured-description">Investigando para generar una intervención basada en la evidencia científica.</p>
+        <p class="fontWeight-semiBold color-tertiary fontSize-sm textTransform-uppercase" href="#">Nuestras investigaciones</p>
+      </a>
+    </div>
+    <div class="GridColumn">
+      <a class="Featured" href="/formacion">
+        <div class="Featured-image">
+          <img src="./images/formacion.svg" alt='Formación'/>
+        </div>
+        <h3 class="Featured-title"><span>Formación</span></h3>
+        <p class="Featured-description">Espacio para la formación de profesionales o futuros profesionales en herramientas para la intenrvención psicosocial con población altamente resistente al cambio.</p>
+        <p class="fontWeight-semiBold color-secondary fontSize-sm textTransform-uppercase" href="#">Formaciones ofrecidas</p>
       </a>
     </div>
     <div class="GridColumn">
       <a class="Featured">
-        <div class="Featured-image">
-          <img src="http://lorempixel.com/400/250/city" alt='Formación'/>
-          <h3 class="Featured-title"><span>Formación</span></h3>
+        <div class="Featured-image" href="invervencion">
+          <img src="./images/intervencion.svg" alt='Intervención'/>
         </div>
-      </a>
-    </div>
-    <div class="GridColumn">
-      <a class="Featured">
-        <div class="Featured-image">
-          <img src="http://lorempixel.com/400/250/nature" alt='Intervención'/>
-          <h3 class="Featured-title"><span>Intervención</span></h3>
-        </div>
+        <h3 class="Featured-title"><span>Intervención</span></h3>
+        <p class="Featured-description">Atención psicosocial y prevención de la violencia de género en adultos y adolescentes.</p>
+        <p class="fontWeight-semiBold color-primary fontSize-sm textTransform-uppercase" href="#">Programas de intervención</p>
       </a>
     </div>
   </div>
 </div>
 
-<section class="padding-xl bg-primary textAlign-center">
+<section class="bg-primary">
   <div class="container">
-    <h3 class="color-white fontWeight-light marginBottom-xl">¿Te ayudamos?</h3>
-    <p class="color-white">¿Tientes dificultades para conseguir vivir tus relaciones de pareja de manera saludable, positiva y sin violencia?</p>
-    <p>
-      <a href="" class="Button Button--outline">Pide ayuda</a>
-    </p>
-  </div>
+    <div class="GridRow Help">
+      <div class="GridColumn GridColumn--fromMedium-3 upToMedium-hidden">
+      </div>
+      <div class="GridColumn GridColumn--fromMedium-6 paddingTop-xxl fromMedium-paddingBottom-xxl">
+        <h3 class="color-white fontWeight-light marginBottom-xl">¿Te ayudamos?</h3>
+        <p class="color-white">¿Tientes dificultades para conseguir vivir tus relaciones de pareja de manera saludable, positiva y sin violencia?</p>
+      </div>
+      <div class="GridColumn GridColumn--fromMedium-3">
+        <p class="marginTop-xxl marginBottom-xl">
+          <a href="/ayuda" class="Button Button--outlineWhite fromMedium-marginTop-xxl">Pide ayuda</a>
+        </p>
+      </div>
+    </div>
 </section>
 
-<section class="posts">
-  {% for post in site.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | prepend:site.baseurl }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <p class="post-date">{{ post.date | date_to_string }}</p>
-
-    {{ post.content }}
-  </article>
-  {% endfor %}
+<section class="container">
+  <h2 class="margin-xxl fontWeight-light textAlign-center">Últimas noticias</h2>
+  <div class="posts GridRow GridRow--fromMedium-2">
+    {% for post in site.posts limit:2 %}
+    <div class="GridColumn">
+      <article class="Post">
+        {% if post.image %}
+        <div class="Post-image">
+          <img src="{{ post.image }}" alt="Imagen {{ post.title}}" />
+        </div>
+        {% endif %}
+        <div class="Post-content">
+          <time class="Post-date">{{ post.date | date_to_string }}</time>
+          <h3 class="Post-title">
+            <a href="{{ post.url | prepend:site.baseurl }}">
+              {{ post.title }}
+            </a>
+          </h3>
+          <p class="Post-excerpt">
+            {{ post.excerpt }}
+          </p>
+          <p class="Post-link">
+            <a class="Button padding-0" href="{{ post.url | prepend:site.baseurl }}">
+              Leer más
+            </a>
+          </p>
+        </div>
+      </article>
+    </div>
+    {% endfor %}
+  </div>
 </section>
