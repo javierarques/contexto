@@ -29,23 +29,16 @@
   font-size: 0;
 }
 
-
 .lineHeight-md {
   line-height: 1.5 !important;
 }
 
-.bg-primary {
-  background-color: $color-brand-primary !important;
-}
-.bg-secondary {
-  background-color: $color-brand-secondary !important;
-}
-.bg-tertiary {
-  background-color: $color-brand-tertiary !important;
-}
-
 .unstyle {
   padding: 0;
-  margin: 0;
   list-style: none;
+}
+
+
+.marginRight-md {
+  margin-right: $spacer-md;
 }

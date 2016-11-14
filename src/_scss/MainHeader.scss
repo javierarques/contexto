@@ -7,9 +7,13 @@
 .MainHeader-content {
   display: flex;
   max-width: $max-width;
-  padding: 2rem 1rem;
+  padding: 1rem;
   margin: auto;
   align-items: center;
+
+  @include media-up(medium) {
+    padding: 2rem 1rem;
+  }
 }
 
 .MainHeader-title {

@@ -1,10 +1,8 @@
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link href="http://gmpg.org/xfn/11" rel="profile">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
     {% if page.title == "Inicio" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -12,22 +10,12 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-
-  <title>
-    {% if page.title == "Inicio" %}
-      <meta name="description" content="{{ site.description }}" />
-    {% else %}
-      <meta name="description" content="{{ page.description }}" />
-    {% endif %}
-  </title>
-
-  <!-- CSS -->
+  {% if page.title == "Inicio" %}
+    <meta name="description" content="{{ site.description }}" />
+  {% else %}
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-
-  <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
 </head>
