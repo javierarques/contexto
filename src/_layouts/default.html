@@ -8,10 +8,7 @@
   {% assign pageClass = page.url | remove_first: '/' %}
 {% endif %}
 <body class="page-{{ pageClass }}">
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
+  {{ content }}
   {% include footer.html %}
   <script src="./javascript/main.js"></script>
 </body>

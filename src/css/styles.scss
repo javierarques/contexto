@@ -5,6 +5,11 @@
 
 @import "config";
 @import "mixins";
+
+// Components
+
+@import "BigNumberedList";
+@import "Card";
 @import "Nav";
 @import "MainHeader";
 @import "Featured";
@@ -12,4 +17,6 @@
 @import "Help";
 @import "Hero";
 @import "Post";
+
 @import "utilities";
+@import "pages";

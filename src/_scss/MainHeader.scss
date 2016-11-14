@@ -7,7 +7,7 @@
 .MainHeader-content {
   display: flex;
   max-width: $max-width;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: auto;
   align-items: center;
 }
@@ -23,4 +23,13 @@
 
 .MainHeader-nav {
   margin-left: auto;
+}
+
+
+// Dark variation
+
+.MainHeader--dark {
+  position: static;
+  margin-bottom: $spacer-xxl;
+  border-bottom: 1px solid #eee;
 }

@@ -1,4 +1,5 @@
-<nav class="Nav" id="nav">
+{% assign variant = include.variant %}
+<nav class="Nav {% if variant %}Nav--{{ variant }}{% endif %}" id="nav">
   <ul class="Nav-menu">
     {% assign navigation_pages = site.html_pages | sort: 'nav_order' %} {% for p in navigation_pages %}
     {% if p.nav_order %}

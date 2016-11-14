@@ -64,7 +64,7 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: rgba($color-brand-primary, .8);
+  background: rgba($color-brand-primary, .9);
   overflow: hidden;
 
   .Nav-menu {
@@ -108,4 +108,19 @@
 
 .Nav-icon--close {
   display: none;
+}
+
+// Nav Dark
+.Nav--dark {
+  .Nav-menuLink, .Nav-icon {
+    color: $body-color;
+  }
+  &.is-open {
+    .Nav-menuLink {
+      color: #fff;
+    }
+    .Nav-icon--close {
+      color: #fff;
+    }
+  }
 }

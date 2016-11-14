@@ -1,10 +1,11 @@
-<header class="MainHeader">
+{% assign variant = include.variant %}
+<header class="MainHeader {% if variant %}MainHeader--{{ variant }}{% endif %}">
   <div class="MainHeader-content">
     <a title="{{ site.title }}" class="MainHeader-title" href="{{ site.baseurl }}/" title="Home">
-      <img src="./images/logo-contexto.svg" alt="{{ site.title }}">
+      <img src="./images/logo-contexto{% if variant %}-{{ variant }}{% endif %}.svg" alt="{{ site.title }}">
     </a>
     <div class="MainHeader-nav">
-      {% include nav.html %}
+      {% include nav.html variant=variant %}
     </div>
   </div>
 </header>

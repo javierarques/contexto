@@ -1,0 +1,48 @@
+//
+//  Card Component
+//
+
+.Card {
+  margin-bottom: $spacer;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+}
+
+.Card-image {
+  img {
+    width: 100%;
+  }
+}
+
+.Card-content {
+  padding: 1rem;
+}
+
+.Card-meta {
+  margin-bottom: 0;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $color-brand-tertiary;
+  text-transform: uppercase;
+}
+
+.Card-title {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semi-bold;
+}
+
+.Card-text {
+  font-size: $font-size-sm;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Card-footer {
+  text-align: center;
+}
+
+.Card-footer-link {
+  display: inline-block;
+  font-weight: $font-weight-semi-bold;
+}

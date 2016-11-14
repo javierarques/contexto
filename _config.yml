@@ -8,7 +8,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-tagline: Programa contexto
+  members:
+    title: members
+    output: false
+description: Programa de Investigación, Formación, Intervención y Prevención de la Violencia de Género a través del trabajo con el agresor
+tagline: Programa de Investigación, Formación, Intervención y Prevención de la Violencia de Género a través del trabajo con el agresor
 url: http://javierarques.github.io/contexto/
 respository: javierarques/contexto
 permalink: "/:title"

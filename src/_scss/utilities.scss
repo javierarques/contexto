@@ -17,6 +17,13 @@
   @include type-h5;
 }
 
+.type-lead {
+  max-width: 800px;
+  margin: 0 auto $spacer-xl auto;
+  font-size: rem(18px);
+  color: $color-gray;
+  text-align: center;
+}
 
 .text-hidden {
   font-size: 0;
@@ -35,4 +42,10 @@
 }
 .bg-tertiary {
   background-color: $color-brand-tertiary !important;
+}
+
+.unstyle {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }

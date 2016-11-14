@@ -1,0 +1,73 @@
+---
+title: Quiénes somos
+description: Somos un equipo de profesionales concienciados en la importancia de trabajar para crear una sociedad libre de violencia, creando e implementando herramientas que permitan establecer relaciones de pareja saludables, basadas en el respeto y el buen trato.
+layout: page
+nav_order: 1
+---
+
+<div class="container">
+  <h1 class="textAlign-center marginBottom-md paddingBottom-0">¿Quiénes somos?</h1>
+  <p class="type-lead marginBottom-xxl">Somos un equipo de profesionales concienciados en la importancia de trabajar para crear una sociedad libre de violencia, creando e implementando herramientas que permitan establecer relaciones de pareja saludables, basadas en el respeto y el buen trato.</p>
+
+  <section class="GridRow marginBottom-xl">
+    <div class="GridColumn GridColumn--fromMedium-6 ">
+      <h2 class="type-h4">¿Cómo nació el Programa Contexto?</h2>
+      <p>En España, a partir de la entrada en vigor de la <em>Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género</em>, el sistema judicial remite a los agresores condenados por violencia de género (con una pena de prisión menor a dos años de cárcel y sin antecedentes penales) a programas de intervención que se desarrollan en medio comunitario.
+      </p>
+      <p><strong>El Programa Contexto</strong> surge en el año 2006, entre otros motivos, como respuesta a la carencia de recursos en la Provincia de Valencia para que se cumpliera dicha Ley.</p>
+      <p>Este Programa es fruto de una estrecha colaboración entre la <a href="https://asociacionpsima.wordpress.com/">Asociación PSIMA</a> (Profesionales Sociales en la Intervención del Maltrato), la Dirección del Centro de Inserción Social de Picassent (Valencia) y el equipo de investigación <strong>dirigido por la profesora Marisol Lila</strong> del Departamento de Psicología Social de la Universitat de València.</p>
+    </div>
+    <div class="GridColumn GridColumn--fromMedium-6">
+      <img src="http://placehold.it/600x500">
+    </div>
+  </section>
+
+</div>
+
+
+<section class="bg-primary color-white paddingTop-xxl paddingBottom-xxl">
+  <div class="container">
+    <h2 class="fontSize-xl textAlign-center textTransform-uppercase marginBottom-xl fromMedium-maginBottom-xxl">Objetivos del Programa</h2>
+    <ol class="BigNumberedList">
+      <li class="BigNumberedList-item">Proporcionar un recurso de intervención en la provincia de Valencia para el tratamiento y prevención de la violencia de género mediante el trabajo con los agresores y ofrecer un programa que permita el cumplimiento de la ley.</li>
+      <li class="BigNumberedList-item">Crear un espacio de formación de futuros profesionales especialistas en intervención en violencia de género.</li>
+      <li class="BigNumberedList-item">Diseñar y desarrollar investigación que aporte un avance en la intervención y prevención de la violencia de género y que suponga una profundización en el conocimiento científico en este ámbito.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="paddingTop-xxl paddingBottom-xxl">
+  <div class="container">
+    <h2 class="textAlign-center fontWeight-light marginBottom-xxl">El Equipo</h2>
+    <ul class="GridRow GridRow--fromSmall-2 GridRow--fromMedium-3 unstyle">
+      {% assign members = site.members | sort: 'order' %}
+      {% for member in members %}
+        <li class="GridColumn">
+          <div class="Card">
+            <div class="Card-image">
+              <img src="{{ member.image }}" alt="" />
+            </div>
+            <div class="Card-content">
+              <p class="Card-meta">{{ member.job }}</p>
+              <h4 class="Card-title">{{ member.name }}</h4>
+
+              {% if member.content %}
+              <div class="Card-text">
+                {{ member.content }}
+              </div>
+              {% endif %}
+
+              {% if member.links %}
+              <div class="Card-footer">
+                {% for link in member.links %}
+                  <a class="Card-footer-link" href="{{ link.url }}">{{ link.name }}</a>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </div>
+  </div>
+</section>

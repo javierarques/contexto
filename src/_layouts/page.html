@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+{% include header.html variant='dark' %}
 
-  {{ content }}
-</article>
+<main>
+  <article>
+    {{ content }}
+  </article>
+</main>

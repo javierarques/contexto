@@ -1,0 +1,38 @@
+.BigNumberedList {
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  table-layout: fixed;
+
+  @include media-up(medium) {
+    display: table;
+  }
+
+  counter-reset: section;
+}
+
+.BigNumberedList-item {
+  position: relative;
+  padding-left: 2.3rem;
+  margin-bottom: $spacer;
+  counter-increment: section;
+
+  &::before {
+    content: counter(section) ".";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: rem(42px);
+    font-weight: 300;
+    line-height: 1;
+    color: $color-brand-tertiary;
+  }
+
+  @include media-up(medium) {
+    display: table-cell;
+    padding-right: 1.5rem;
+  }
+}
