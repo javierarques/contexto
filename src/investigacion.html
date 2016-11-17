@@ -289,13 +289,28 @@ title: Investigación
   <p class="type-lead marginBottom-xxl">¿Son eficaces los programas de intervención con maltratadores?, <br />¿qué elementos influyen en la reducción de la conducta violenta?. Desde el Programa Contexto, hemos adquirido el compromiso de buscar respuesta a estas preguntas mediante métodos rigurosos de investigación.</p>
 
   <h2>Artículos y publicaciones</h2>
-  <ul class="unstyle">
+  <ul class="Publications">
     {% for research in page.researchs %}
-    <li class="">
-      {{ research.date }} |
-      {{ research.title }} |
-      {{ research.authors }} |
-      {{ research.editorial }}
+    <li class="Publication">
+      <h3 class="Publication-title">{{ research.title }}</h3>
+      <dl class="Publication-data">
+        {% if research.date %}
+        <div>
+          <dt class='Publication-label'>Año</dt>
+          <dd class="Publication-date">{{ research.date }}</dd>
+        </div>
+        {% endif %}
+        <div>
+          <dt class='Publication-label'>Autores/as</dt>
+          <dd class="Publication-author">{{ research.authors }}</dd>
+        </div>
+        {% if research.editorial%}
+        <div>
+          <dt class="Publication-label">Publicado</dt>
+          <dd class="Publication-meta">{{ research.editorial }}</dd>
+        </div>
+        {% endif %}
+      </dl>
     </li>
     {% endfor %}
   </ul>
