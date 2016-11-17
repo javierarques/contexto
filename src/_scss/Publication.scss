@@ -15,9 +15,9 @@
 }
 
 .Publication {
-  padding: $spacer;
+  padding: $spacer-lg;
   margin-bottom: $spacer-lg;
-  background: #f0f4fb;
+  background: rgba($color-brand-secondary, .1);
   @include media-up(medium) {
     width: 49%;
   }
@@ -25,7 +25,8 @@
 
 .Publication-title {
   margin-bottom: $spacer-md;
-  font-size: $font-size-lg;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-light;
 }
 
 .Publication-data {
