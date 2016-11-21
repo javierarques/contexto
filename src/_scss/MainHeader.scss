@@ -1,6 +1,7 @@
 .MainHeader {
   @include clearfix;
   position: absolute;
+  z-index: 2;
   width: 100%;
 }
 
@@ -34,6 +35,6 @@
 
 .MainHeader--dark {
   position: static;
-  margin-bottom: $spacer-xxl;
+  //margin-bottom: $spacer-xxl;
   border-bottom: 1px solid #eee;
 }

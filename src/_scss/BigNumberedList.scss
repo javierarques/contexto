@@ -1,22 +1,15 @@
 .BigNumberedList {
-
   width: 100%;
   padding: 0;
   margin: 0;
   list-style: none;
-  table-layout: fixed;
-
-  @include media-up(medium) {
-    display: table;
-  }
-
   counter-reset: section;
 }
 
 .BigNumberedList-item {
   position: relative;
   padding-left: 2.3rem;
-  margin-bottom: $spacer;
+  margin-bottom: $spacer-lg;
   counter-increment: section;
 
   &::before {
@@ -31,8 +24,23 @@
     color: $color-brand-tertiary;
   }
 
+  &--small {
+    &::before {
+      top: -5px;
+      font-size: rem(32px);
+    }
+  }
+}
+
+.BigNumberedList--inline {
   @include media-up(medium) {
-    display: table-cell;
-    padding-right: 1.5rem;
+    display: table;
+    table-layout: fixed;
+  }
+  .BigNumberedList-item  {
+    @include media-up(medium) {
+      display: table-cell;
+      padding-right: 1.5rem;
+    }
   }
 }

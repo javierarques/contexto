@@ -20,14 +20,15 @@
 
 .Card-meta {
   margin-bottom: 0;
-  font-size: $font-size-sm;
+  font-size: $font-size-xs;
   font-weight: 600;
   color: $color-brand-tertiary;
   text-transform: uppercase;
 }
 
 .Card-title {
-  font-size: $font-size-lg;
+  margin-bottom: .3rem;
+  font-size: 1.1rem;
   font-weight: $font-weight-semi-bold;
 }
 

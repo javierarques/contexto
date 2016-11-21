@@ -21,6 +21,11 @@ $max-width: 1024px;
   padding: 0 1rem;
   margin: auto;
 }
+
+.container--post {
+  max-width: 740px;
+}
+
 .Button--outlineWhite:hover {
   text-decoration: none;
   background-color: #fff;

@@ -1,19 +1,13 @@
-.Post {
-  display: table;
-  width: 100%;
-  margin-bottom: $spacer-lg;
-}
-.Post-image {
-  display: table-cell;
-  width: 35%;
-  padding-right: 1rem;
-  vertical-align: top;
+.Post-title {
+  font-weight: $font-weight-semi-bold;
+  margin-bottom: $spacer-md;
 }
 .Post-content {
-  display: table-cell;
-  vertical-align: top;
+  font-size: rem(17px);
 }
 .Post-date {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
+  color: $color-gray;
+}
+.Post-header {
+  margin-bottom: $spacer-xl;
 }

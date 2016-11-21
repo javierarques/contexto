@@ -1,0 +1,29 @@
+---
+title: Noticias
+description: Últimas noticias del programa Contexto
+layout: page
+---
+
+<div class="container marginTop-xxl">
+  <h1>Últimas noticias</h1> {% for post in site.posts limit:2 %}
+  <article class="Media">
+    {% if post.image %}
+    <div class="Media-media">
+      <img src="{{ post.image }}" alt="Imagen {{ post.title}}" />
+    </div>
+    {% endif %}
+    <div class="Media-body">
+      <time class="Media-meta">{{ post.date | date_to_string }}</time>
+      <h3 class="Media-headline">
+        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+      </h3>
+      <p class="Media-excerpt">
+        {{ post.excerpt }}
+      </p>
+      <p class="Media-link">
+        <a class="Button padding-0" href="{{ post.url | prepend:site.baseurl }}">Leer más</a>
+      </p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
