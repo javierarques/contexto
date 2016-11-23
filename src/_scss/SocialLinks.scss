@@ -1,0 +1,77 @@
+.SocialLinks {
+  padding: 0;
+  list-style: none;
+
+  @include media-up(medium) {
+    display: inline-block;
+  }
+}
+
+.SocialLinks-item {
+  display: inline-block;
+  margin: 0 .2rem;
+}
+
+.SocialLinks-item-link {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  border: 1px solid $body-color;
+  transition: 200ms all linear;
+
+
+}
+
+.SocialLinks-item-icon {
+  width: .8rem;
+  height: .8rem;
+  fill: $body-color;
+  transition: 200ms all linear;
+
+  .SocialLinks-item-link:hover & {
+    fill: #fff;
+  }
+}
+
+.SocialLinks-item-link--facebook:hover {
+  background: $color-facebook;
+  border-color: $color-facebook;
+  fill: #fff;
+}
+
+.SocialLinks-item-link--twitter:hover {
+  background: $color-twitter;
+  border-color: $color-twitter;
+  fill: #fff;
+}
+
+
+// Mix with nav menu
+
+.is-open {
+  .SocialLinks {
+    display: block !important;
+  }
+  .SocialLinks-item-link {
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-color: #fff;
+  }
+  .SocialLinks-item-icon {
+    width: 1rem;
+    height: auto;
+    fill: #fff;
+  }
+}
+
+.Nav .SocialLinks {
+  display: none;
+
+  @include media-up(medium) {
+    display: inline-block;
+    margin-left: $spacer;
+  }
+}
