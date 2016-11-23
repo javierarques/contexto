@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
+$root-font-size: 15px;
 $font-family-base: 'Source Sans Pro', sans-serif;
 $color-brand-primary: #073992;
 $color-brand-secondary: #007FC1;
@@ -33,4 +34,10 @@ $max-width: 1024px;
   text-decoration: none;
   background-color: #fff;
   color: $color-brand-primary;
+}
+
+html {
+  @include media-up(medium) {
+    font-size: 16px;
+  }
 }
