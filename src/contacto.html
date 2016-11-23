@@ -1,6 +1,59 @@
 ---
 title: Contacto
-description: Contacta con Contexto
+description: Contacta con en Programa Contexto
 layout: page
 nav_order: 6
 ---
+
+<div class="googleMaps marginBottom-xl" id="googleMaps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.577937798992!2d-0.3617667346323825!3d39.47886267948511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048a39eb9baff%3A0xd17ec227d42154e8!2sFacultat+de+Psicologia+(UV)!5e0!3m2!1sen!2ses!4v1479929202244" width="100%" height="500" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen="" id="googleMapsIframe"></iframe>
+</div>
+
+<div class="container">
+  <h1 class="textAlign-center marginBottom-xl">Contacta con nosotros/as</h1>
+
+  <div class="GridRow">
+    <div class="GridColumn GridColumn--fromMedium-6 marginBottom-xl">
+      <h3>Oficina del Programa Contexto</h3>
+      <address>
+        <strong>Universitat de València</strong> <br/><br/>
+        Departamento de Psicología Social<br/>
+        Facultad de Psicología<br/>
+        Tercera planta (Oficina Programa Contexto)<br/><br/>
+        Avda. Blasco Ibáñez, 21<br/>
+        46010 Valencia (Spain)<br/><br/>
+
+        Tel:  96 3864100 (ext. 83918)
+      </address>
+    </div>
+    <div class="GridColumn GridColumn--fromMedium-6 marginBottom-xxl">
+      <h3>Formulario de contacto</h3>
+      <form id="contactForm" action="https://formspree.io/javiarchena@gmail.com" method="POST">
+        <div class="FormGroup">
+          <label class="Label" for="name">Tu nombre</label>
+          <input type="text" name="name" id="name" class="Input" placeholder="Escribe tu nombre" required />
+        </div>
+        <div class="FormGroup">
+          <label class="Label" for="email">Correo Electrónico</label>
+          <input type="email" name="email" id="email" class="Input" placeholder="Aquí te responderemos" required />
+        </div>
+
+        <div class="FormGroup">
+          <label class="Label" for="tel">Teléfono <span class="color-gray">(opcional)</span></label>
+          <input class="Input" type="tel" name="tel" id="tel" />
+        </div>
+
+        <div class="FormGroup">
+          <label class="Label" for="message">Mensaje</label>
+          <textarea class="Textarea" name="message" id="message" rows="4" placeholder="¿Cómo podemos ayudarte?" required></textarea>
+        </div>
+
+        <input id='submitButton' type="submit" value="Enviar consulta" class="Button Button--primary">
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+<script type="text/javascript" src="/javascript/fetch.js"></script>
