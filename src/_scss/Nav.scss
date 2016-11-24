@@ -70,10 +70,11 @@
 
   .Nav-menu {
     display: flex;
+    flex-direction: column;
+    margin-bottom: $spacer;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
   }
 
   .Nav-menuItem {

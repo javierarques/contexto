@@ -32,9 +32,7 @@ $max-width: 1024px;
 }
 
 .Button--outlineWhite:hover {
-  text-decoration: none;
-  background-color: #fff;
-  color: $color-brand-primary;
+  text-decoration: none !important;
 }
 
 html {

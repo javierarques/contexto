@@ -14,9 +14,9 @@
 
 .SocialLinks-item-link {
   display: inline-block;
-  width: 1.6rem;
-  height: 1.6rem;
-  line-height: 1.6rem;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   border: 1px solid $body-color;
   transition: 200ms all linear;
@@ -25,8 +25,8 @@
 }
 
 .SocialLinks-item-icon {
-  width: .8rem;
-  height: .8rem;
+  width: 14px;
+  height: 14px;
   fill: $body-color;
   transition: 200ms all linear;
 
@@ -55,13 +55,13 @@
     display: block !important;
   }
   .SocialLinks-item-link {
-    width: 2.2rem;
-    height: 2.2rem;
-    line-height: 2.2rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border-color: #fff;
   }
   .SocialLinks-item-icon {
-    width: 1rem;
+    width: 20px;
     height: auto;
     fill: #fff;
   }
