@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/javierarques/contexto#readme",
   "devDependencies": {
-    "flystyles": "^1.1.10"
+    "flystyles": "^1.1.11"
   }
 }
