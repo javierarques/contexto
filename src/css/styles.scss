@@ -6,6 +6,8 @@
 @import "config";
 @import "mixins";
 
+@import "utilities";
+
 // Components
 
 @import "BigNumberedList";
@@ -20,6 +22,3 @@
 @import "Post";
 @import "Publication";
 @import "SocialLinks";
-
-@import "utilities";
-@import "pages";
