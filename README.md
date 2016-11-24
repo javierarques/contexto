@@ -1,15 +1,34 @@
-# Example Jekyll site
+# Web del Programa Contexto
 
-You're looking at a simple Jekyll site built to show folks how to use Sass with Jekyll. It's open sourced under the MIT license and can be download from [the GitHub project](https://github.com/mdo/jekyll-example).
+Web del Programa Contexto de la Universidad de Valencia: Programa de Investigación, Formación, Intervención y Prevención de la Violencia de Género a través del trabajo con el agresor.
 
-### Usage
+## Instalación
 
-Read the [Using Sass with Jekyll](http://markdotto.com/2014/09/25/sass-and-jekyll/) post.
+Puedes usar esta web libremente. Para trabajar en local vas a necesitar ruby y node, ya que el proyecto está desarrollado en Jekyll y carga una dependencia de npm.
 
-### Support
+Para instalarte el proyecto haz lo siguiente:
 
-**No support is provided with this project.** It is solely meant as a one-time download to accompany the aforementioned blog post.
+Clónate el repositorio:
+```bash
+git clone https://github.com/javierarques/contexto.git .
+```
 
-### License
+Instala Jekyll:
+```bash
+bundle install
+```
 
-Released under MIT by @mdo.
+Instala las dependencias de npm:
+```bash
+npm install
+```
+
+Ejecuta el proyecto (Jekyll) en local con:
+```bash
+bundle exec jekyll serve
+```
+
+Puedes generar un build estático con:
+```bash
+bundle exec jekyll build
+```
