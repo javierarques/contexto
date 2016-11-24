@@ -9,30 +9,60 @@ researchs:
     date: 2016
     editorial: "International Journal of Emergency Mental Health and Human Resilience, 13, 394-407."
     title: "Improvements in empathy and cognitive flexibility after court-mandated intervention program in intimate partner violence perpetrators: The role of alcohol abuse."
+    pdf: "/media/docs/Improvements in empathy.pdf"
   -
     authors: "Gracia, E. y Lila, M."
     editorial: "Luxembourg: European Commission."
     title: "Attitudes towards violence against women in EU."
     year: 2015
+    pdf: "/media/docs/Attitudes towards violence.pdf"
   -
     authors: "Gracia, E., Rodriguez, C. M. y Lila, M."
     date: 2015
     editorial: "Frontiers In Psychology, 6, 1567."
     title: "Preliminary evaluation of an analog procedure to assess acceptability of intimate partner violence against women: the Partner Violence Acceptability Movie Task."
+    pdf: "/media/docs/Preliminary evaluation.pdf"
   -
     authors: "Lila, M., Oliver, A., Catalá-Miñana, A., Galiana, L. y Gracia, E."
     date: 2014
     editorial: "The European Journal of Psychology Applied to Legal Context, 6, 29-36."
     title: "The intimate partner violence responsibility attribution scale (IPVRAS)."
+    pdf: "/media/docs/The intimate partner violence.pdf"
   -
     authors: "Lila, M., Oliver, A., Catalá-Miñana, A. y Conchell, R."
     date: 2014
     editorial: "Psychosocial Intervention, 23, 217-223."
     title: "Recidivism risk reduction assessment in batterer intervention programs: A key indicator for program   efficacy evaluation."
+    pdf: "/media/docs/Recidivism risk reduction assessment.pdf"
   -
     authors: "Catalá-Miñana, A, Walker, K., Bowen, E. y Lila, M. (in press)."
     editorial: "Journal of Interpersonal Violence."
     title: "Cultural Differences in Personality and Aggressive Behavior in Intimate Partner Violence Offenders: A Comparison of English and Spanish Offenders."
+    pdf: "/media/docs/Cultural differences.pdf"
+  -
+    authors: "Romero-Martínez, A., Lila, M.m Catalá-Miñana, A., Williams, R. K. y Moya-Albiol, L."
+    date: 2013
+    editorial: "International Journal of Environmental Research and Public Health, 10(8), 3753-3770."
+    title: "The contribution of childhood parental rejection and early androgen exposure to impairments in   socio-cognitive skills in intimate partner violence perpetrators with high alcohol consumption."
+    pdf: "/media/docs/The contribution of childhood parental.pdf"
+  -
+    title: "Valoración del riesgo de reincidencia en violencia contra la mujer en las relaciones de pareja: Importancia del apoyo social."
+    authors: Lila, M., Oliver, A., Lorenzo, M. V. y Catalá, A.
+    date: 2013
+    editorial: Revista de Psicología Social, 28, 225-236.
+    pdf: "/media/docs/Valoracion del riesgo de reincidencia.pdf"
+  -
+    title: "Psychological adjustment and victim-blaming among intimate partner violence offenders: The role of social support and stressful life events."
+    authors: Lila, M., Gracia, E. y Murgui, S.
+    date: 2013
+    authors: The European Journal of Psychology Applied to Legal Context, 5, 147-153.
+    pdf: "/media/docs/Psychological adjustment.pdf"
+  -
+    authors: "Lila, M., Catalá, A., Conchell, R., García, A., Lorenzo, M. V., Pedrón, V. y Terreros, E."
+    date: 2010
+    editorial: "Intervención Psicosocial, 19, 167-179."
+    title: "Una Experiencia de Investigación, Formación e Intervención con Hombres Penados por Violencia contra la Mujer en la Universidad de Valencia: Programa Contexto."
+    pdf: "/media/docs/Programa Contexto.pdf"
   -
     authors: "Gracia, E. (in press) In A. C. Michalos (Ed.)"
     editorial: "Encyclopedia of quality of life research. Berlin: Springer."
@@ -50,11 +80,6 @@ researchs:
     date: 2013
     editorial: "Psychosocial Intervention, 22(2), 135-143."
     title: "¿Se benefician de los programas de intervención que no tratan específicamente el consumo de alcohol   los maltratadores con problemas de consumo?"
-  -
-    authors: "Romero-Martínez, A., Lila, M.m Catalá-Miñana, A., Williams, R. K. y Moya-Albiol, L."
-    date: 2013
-    editorial: "International Journal of Environmental Research and Public Health, 10(8), 3753-3770."
-    title: "The contribution of childhood parental rejection and early androgen exposure to impairments in   socio-cognitive skills in intimate partner violence perpetrators with high alcohol consumption."
   -
     authors: "Lila, M., Oliver, A., Lorenzo, M. V. y Catalá, A."
     date: 2013
@@ -162,11 +187,6 @@ researchs:
     date: 2010
     editorial: "Valencia: PUV"
     title: "Manual de intervención con maltratadores."
-  -
-    authors: "Lila, M., Catalá, A., Conchell, R., García, A., Lorenzo, M. V., Pedrón, V. y Terreros, E."
-    date: 2010
-    editorial: "Intervención Psicosocial, 19, 167-179."
-    title: "Una Experiencia de Investigación, Formación e Intervención con Hombres Penados por Violencia contra la Mujer en la Universidad de Valencia: Programa Contexto."
   -
     authors: "Lila, M."
     date: 2009
@@ -300,7 +320,7 @@ researchs:
     {% for research in page.researchs %}
     <li class="Publication">
       <h3 class="Publication-title">{{ research.title }}</h3>
-      <dl class="Publication-data">
+      <dl class="Publication-data marginBottom-0">
         {% if research.date %}
         <div>
           <dt class='Publication-label'>Año</dt>
@@ -315,6 +335,16 @@ researchs:
         <div>
           <dt class="Publication-label">Publicado</dt>
           <dd class="Publication-meta">{{ research.editorial }}</dd>
+        </div>
+        {% endif %}
+        {% if research.pdf %}
+        <div>
+            <p class="marginTop-xl marginBottom-0">
+              <a href="{{ research.pdf | prepend:site.baseurl }}" class="Button padding-0 fontWeight-semiBold">
+                <img style="vertical-align: -3px; margin-right: 3px;" src="/images/download.svg" width="17" height="17" alt="download" />
+                Descargar
+              </a>
+            </p>
         </div>
         {% endif %}
       </dl>
