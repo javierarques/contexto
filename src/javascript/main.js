@@ -95,8 +95,10 @@
       this.form.reset();
     },
     init: function() {
-      this.form = document.getElementById("contactForm");
-      this.button = document.getElementById("submitButton");
+      this.form = document.querySelector('[data-js="netlify-form"]');
+      this.button = document.querySelector(
+        '[data-js="netlify-form"] input[type="submit"]'
+      );
       this.addEvents();
     }
   };
