@@ -53,11 +53,11 @@
       this.sending();
 
       fetch(fetchURL, fetchParams)
-        .then(function(response) {
-          return response.json();
+        .then(function() {
+          ContactForm.success();
         })
-        .then(function(json) {
-          ContactForm.success(json);
+        .catch(function() {
+          ContactForm.error();
         });
     },
     addEvents: function() {
@@ -74,7 +74,7 @@
     sending: function() {
       this.button.setAttribute("disabled", true);
     },
-    success: function(data) {
+    success: function() {
       var response = document.createElement("p");
       response.className = "bg-success padding-md marginTop-md color-white";
       response.textContent =
@@ -84,7 +84,7 @@
       this.button.removeAttribute("disabled");
       this.form.reset();
     },
-    error: function(data) {
+    error: function() {
       var response = document.createElement("p");
       response.className = "bg-danger padding-md marginTop-md color-white";
       response.textContent =
