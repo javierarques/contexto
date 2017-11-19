@@ -58,9 +58,6 @@
         })
         .then(function(json) {
           ContactForm.success(json);
-        })
-        .catch(function(ex) {
-          ContactForm.error(ex);
         });
     },
     addEvents: function() {
