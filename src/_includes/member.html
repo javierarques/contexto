@@ -1,0 +1,15 @@
+<div class="Card">
+  <div class="Card-image">
+    <img src="{{ member.image }}" alt="{{ member.name | escape }}" />
+  </div>
+  <div class="Card-content">
+    <p class="Card-meta">{{ member.job }}</p>
+    <h4 class="Card-title">{{ member.name }}</h4>
+
+    {% if member.content %}
+    <div class="Card-text">
+      {{ member.content }}
+    </div>
+    {% endif %}
+  </div>
+</div>

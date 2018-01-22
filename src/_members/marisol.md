@@ -3,10 +3,9 @@ name: Marisol Lila Murillo
 job: Directora
 order: 0
 image: /media/members/marisol.jpg
+director: true
 links:
   - name: Papers
     url: http://uv.academia.edu/MarisolLila
 ---
-
-Profesora Titular de Psicología Social
-Universidad de Valencia
+Catedrática de Psicología Social. Universitat de Valéncia.
