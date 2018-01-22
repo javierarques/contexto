@@ -23,12 +23,15 @@
     margin-right: 0;
   }
 
-  .page-home & {
-    margin-right: 2.5rem;
-    &:last-child  {
-      margin-right: 0;
+  @include media-up(medium) {
+    .page-home & {
+      margin-right: 2.5rem;
+      &:last-child  {
+        margin-right: 0;
+      }
     }
   }
+
 }
 
 .Nav-menuLink {
