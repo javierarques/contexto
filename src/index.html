@@ -72,36 +72,3 @@ nav_order: 0
       </div>
     </div>
 </section>
-
-<section class="container">
-  <h2 class="margin-xxl fontWeight-light textAlign-center">Últimas noticias</h2>
-  <div class="GridRow GridRow--fromMedium-2">
-    {% for post in site.posts limit:2 %}
-    <div class="GridColumn">
-      <article class="Media">
-        {% if post.image %}
-        <div class="Media-media">
-          <img src="{{ post.image }}" alt="Imagen {{ post.title}}" />
-        </div>
-        {% endif %}
-        <div class="Media-body">
-          <time class="Media-meta">{{ post.date | date_to_string }}</time>
-          <h3 class="Media-headline">
-            <a href="{{ post.url | prepend:site.baseurl }}">
-              {{ post.title }}
-            </a>
-          </h3>
-          <p class="Media-excerpt">
-            {{ post.excerpt }}
-          </p>
-          <p class="Media-link">
-            <a class="Button padding-0" href="{{ post.url | prepend:site.baseurl }}">
-              Leer más
-            </a>
-          </p>
-        </div>
-      </article>
-    </div>
-    {% endfor %}
-  </div>
-</section>
