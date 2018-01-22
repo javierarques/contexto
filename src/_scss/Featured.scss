@@ -1,15 +1,24 @@
 .Featured {
   display: block;
-  text-align: center;
+  text-align: left;
+  margin-bottom: $spacer-xl;
+
+  @include media-up(medium) {
+    margin-bottom: 0;
+  }
 }
 
 .Featured-image {
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  padding: 0;
+  height: 60px;
+  align-items: center;
 
   img {
     width: 60px;
     height: auto;
+    margin-right: $spacer;
+    margin-bottom: $spacer;
     transition: all 200ms ease-in-out;
   }
 }
@@ -18,7 +27,7 @@
   font-size: 24px;
   color: #4A4A4A;
   letter-spacing: 0;
-  font-weight: $font-weight-light;
+  font-weight: 500;
 }
 
 .Featured:hover {
@@ -36,4 +45,8 @@
 .Featured-description {
   font-size: $font-size-md;
   color: $body-color;
+}
+
+.Featured-content {
+
 }

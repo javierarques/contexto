@@ -9,41 +9,48 @@ nav_order: 0
 <section class="Hero Hero--airy">
   <div class="Hero-content">
     <h1 class="text-hidden">Programa Contexto</h1>
-    <img src="./images/logo-contexto.svg" alt="Logo del Programa Contexto" width="244" height="auto"  class="marginBottom-xl upToMedium-hidden"/>
+    <img src="./images/logo-contexto.svg" alt="Logo del Programa Contexto" width="280" height="auto"  class="marginBottom-xl upToMedium-hidden"/>
     <h2 class="color-white type-h5 fontWeight-normal lineHeight-md padding-lg">Programa de Investigación, Formación, Intervención y Prevención de la Violencia de Género a través del trabajo con el agresor</h2>
   </div>
 </section>
 
 <div class="container Featured-list paddingTop-xl paddingBottom-xl">
-  <div class="GridRow GridRow--fromSmall-3">
-    <div class="GridColumn">
-      <a class="Featured" href="{{ 'investigacion' | prepend:site.baseurl }}">
-        <div class="Featured-image">
-          <img src="./images/investigacion.svg" alt="Investigación" width="60" height="auto" />
-        </div>
-        <h3 class="Featured-title"><span>Investigación</span></h3>
-        <p class="Featured-description">Investigando para generar una intervención basada en la evidencia científica.</p>
-        <p class="fontWeight-semiBold color-tertiary fontSize-sm textTransform-uppercase" href="#">Nuestras publicaciones</p>
-      </a>
-    </div>
-    <div class="GridColumn">
-      <a class="Featured" href="{{ 'formacion' | prepend:site.baseurl }}">
-        <div class="Featured-image">
-          <img src="./images/formacion.svg" alt='Formación'/>
-        </div>
-        <h3 class="Featured-title"><span>Formación</span></h3>
-        <p class="Featured-description">Espacio para la formación de profesionales o futuros profesionales en herramientas para la intervención psicosocial con población altamente resistente al cambio.</p>
-        <p class="fontWeight-semiBold color-secondary fontSize-sm textTransform-uppercase" href="#">Formaciones ofrecidas</p>
-      </a>
-    </div>
+  <div class="GridRow GridRow--fromMedium-3">
     <div class="GridColumn">
       <a class="Featured" href="{{ 'intervencion' | prepend:site.baseurl }}">
         <div class="Featured-image" href="invervencion">
           <img src="./images/intervencion.svg" alt='Intervención'/>
+          <h3 class="Featured-title color-tertiary"><span>Intervención</span></h3>
         </div>
-        <h3 class="Featured-title"><span>Intervención</span></h3>
-        <p class="Featured-description">Atención psicosocial y prevención de la violencia de género en adultos y adolescentes.</p>
-        <p class="fontWeight-semiBold color-primary fontSize-sm textTransform-uppercase" href="#">Programa de intervención</p>
+        <div class="Featured-content">
+          <p class="Featured-description">Intervención con agresores y prevención de la violencia de género.</p>
+          <p class="fontWeight-semiBold color-tertiary fontSize-sm textTransform-uppercase margin-0" href="{{ 'intervencion' | prepend:site.baseurl }}">Programa de intervención</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="GridColumn">
+      <a class="Featured" href="{{ 'formacion' | prepend:site.baseurl }}">
+        <div class="Featured-image">
+          <img src="./images/formacion.svg" alt='Formación'/>
+          <h3 class="Featured-title color-secondary"><span>Formación</span></h3>
+        </div>
+        <div class="Featured-content">
+          <p class="Featured-description">Espacio para la formación de profesionales en herramientas para la intervención psicosocial con agresores en las relaciones de pareja.</p>
+          <p class="fontWeight-semiBold color-secondary fontSize-sm textTransform-uppercase margin-0" href="{{ 'formacion' | prepend:site.baseurl }}">Formación ofrecida</p>
+        </div>
+      </a>
+    </div>
+    <div class="GridColumn">
+      <a class="Featured" href="{{ 'investigacion' | prepend:site.baseurl }}">
+        <div class="Featured-image">
+          <img src="./images/investigacion.svg" alt="Investigación" width="52" height="auto" style="width: 52px" />
+          <h3 class="Featured-title color-primary"><span>Investigación</span></h3>
+        </div>
+        <div class="Feature-content">
+          <p class="Featured-description">Investigación avanzada en intervención y prevención de la violencia de género.</p>
+          <p class="fontWeight-semiBold color-primary fontSize-sm textTransform-uppercase margin-0" href="{{ 'investigacion' | prepend:site.baseurl }}">Nuestras publicaciones</p>
+        </div>
       </a>
     </div>
   </div>

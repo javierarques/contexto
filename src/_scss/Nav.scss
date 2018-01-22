@@ -8,7 +8,7 @@
 
 .Nav-menu {
   @include inline-list();
-  font-size: rem(13px);
+  font-size: rem(15px);
   text-transform: uppercase;
 
   @include media-down(medium) {
@@ -21,6 +21,10 @@
 
   &:last-child  {
     margin-right: 0;
+  }
+
+  .page-home & {
+    margin-right: 1.5rem;
   }
 }
 

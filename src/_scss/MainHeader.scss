@@ -24,10 +24,22 @@
     width: 120px;
     height: auto;
   }
+
+  @include media-up(medium) {
+    .page-home & {
+      display: none;
+    }
+  }
+
 }
 
 .MainHeader-nav {
   margin-left: auto;
+  @include media-up(medium) {
+    .page-home & {
+      margin: auto;
+    }
+  }
 }
 
 
