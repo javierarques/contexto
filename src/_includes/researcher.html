@@ -1,0 +1,20 @@
+<article class="Media">
+  <div class="Media-media">
+    <img src="{{ researcher.image }}" srcset="{{ researcher.image }} 1x, {{ researcher.image2x }} 2x" alt="{{ researcher.name | escape }}" />
+  </div>
+  <div class="Media-body">
+    <h3 class="Media-title">{{ researcher.name  }}</h3>
+    <p class="Media-meta">{{ researcher.job  }}</p>
+    <div class="Media-content">
+      {{ researcher.content }}
+    </div>
+    {% if researcher.links %}
+      {% for link in researcher.links %}
+        <a href="{{ link.url }}" class="Button Button--outlinePrimary Button--withIcon marginTop-sm">
+          <span class="Button-text marginRight-sm">{{ link.name }}</span>
+          {% include link-icon.svg %}
+        </a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</article>

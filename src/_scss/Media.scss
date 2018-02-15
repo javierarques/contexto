@@ -4,21 +4,42 @@
 //
 
 .Media {
-  display: table;
+  display: flex;
   width: 100%;
-  margin-bottom: $spacer-lg;
+  margin-bottom: 56px;
+  flex-direction: column;
+  text-align: center;
+
+  @include media-up(medium) {
+    flex-direction: row;
+    text-align: left;
+  }
 }
+
 .Media-media {
-  display: table-cell;
-  width: 35%;
-  padding-right: 1rem;
-  vertical-align: top;
+  max-width: 200px;
+  margin-bottom: $spacer-lg;
+
+  @include media-up(medium) {
+    padding-right: $spacer-xl;
+  }
 }
+
 .Media-body {
-  display: table-cell;
-  vertical-align: top;
+  flex: 1;
 }
+
+.Media-title {
+  margin-bottom: $spacer-sm;
+}
+
 .Media-meta {
   font-size: $font-size-sm;
   text-transform: uppercase;
+  color: $color-brand-primary;
+  font-weight: $font-weight-semi-bold;
+}
+
+.Media-content {
+  text-align: left;
 }

@@ -9,8 +9,8 @@
 $root-font-size: 15px;
 $font-family-base: 'Source Sans Pro', sans-serif;
 $color-brand-primary: #073992;
-$color-brand-secondary: #007FC1;
-$color-brand-tertiary: #43AACB;
+$color-brand-secondary: #007fc1;
+$color-brand-tertiary: #43aacb;
 $global-border-radius: 0;
 $form-field-border-radius: 0;
 
@@ -19,7 +19,9 @@ $color-twitter: #1da1f2;
 
 $max-width: 1124px;
 
-@import "../../node_modules/flystyles/src/flystyles";
+$type-h1-font-weight: 400;
+
+@import '../../node_modules/flystyles/src/flystyles';
 
 .container {
   max-width: $max-width;
@@ -39,4 +41,27 @@ html {
   @include media-up(medium) {
     font-size: 16px;
   }
+}
+
+// Flystyles overwrites
+
+.Button:hover,
+.Button:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Button-text {
+  display: inline-block;
+}
+
+.Button-icon {
+  width: $spacer;
+  height: $spacer;
+  vertical-align: -3px;
+  display: inline-block;
+}
+
+.Button--withIcon {
+  padding-right: $spacer-xl;
 }
