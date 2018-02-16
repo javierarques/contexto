@@ -2,10 +2,12 @@
 title: Noticias
 description: Últimas noticias del programa Contexto
 layout: page
+nav_order: 5
 ---
 
 <div class="container marginTop-xxl">
-  <h1>Últimas noticias</h1> {% for post in site.posts limit:2 %}
+  <h1>Últimas noticias</h1>
+  {% for post in site.posts %}
   <article class="Media">
     {% if post.image %}
     <div class="Media-media">

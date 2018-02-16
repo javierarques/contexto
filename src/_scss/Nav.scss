@@ -17,21 +17,20 @@
 }
 
 .Nav-menuItem {
-  margin-right: $spacer;
-
-  &:last-child  {
+  &:last-child {
     margin-right: 0;
   }
 
   @include media-up(medium) {
+    margin-right: $spacer;
+
     .page-home & {
       margin-right: 2.5rem;
-      &:last-child  {
+      &:last-child {
         margin-right: 0;
       }
     }
   }
-
 }
 
 .Nav-menuLink {
@@ -50,7 +49,8 @@
     transform: translateY(-5px);
   }
 
-  &:hover, &.is-active {
+  &:hover,
+  &.is-active {
     color: #fff;
     text-decoration: none;
 
@@ -60,7 +60,6 @@
     }
   }
 }
-
 
 // Nav Mobile
 
@@ -75,7 +74,7 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background: rgba($color-brand-primary, .9);
+  background: rgba($color-brand-primary, 0.9);
   overflow: hidden;
 
   .Nav-menu {
@@ -124,7 +123,8 @@
 
 // Nav Dark
 .Nav--dark {
-  .Nav-menuLink, .Nav-icon {
+  .Nav-menuLink,
+  .Nav-icon {
     color: $body-color;
   }
   &.is-open {

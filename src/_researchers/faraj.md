@@ -9,4 +9,4 @@ links:
     url: https://www.researchgate.net/profile/Faraj_Santirso
 ---
 
-Máster en Neurociencias Básicas y Aplicadas por la Universidad de Valencia, integrante del equipo de investigación _VIO-Strategy_. Actualmente está realizando el doctorado en Investigación en Psicología, analizando diferentes predictores de la eficacia de la intervención con maltratadores en hombres penados por violencia de género.
+Integrante del equipo de investigación _VIO-Strategy_. Actualmente está realizando el doctorado analizando diferentes predictores de la eficacia de la intervención grupal con hombres penados por violencia de género.

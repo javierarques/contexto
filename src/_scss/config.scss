@@ -45,8 +45,8 @@ html {
 
 // Flystyles overwrites
 
-.Button:hover,
-.Button:focus {
+.Button.Button--primary:hover,
+.Button.Button--primary:focus {
   text-decoration: none;
   color: #fff;
 }
@@ -64,4 +64,8 @@ html {
 
 .Button--withIcon {
   padding-right: $spacer-xl;
+}
+
+.margin-auto {
+  margin: auto;
 }

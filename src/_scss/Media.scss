@@ -8,19 +8,17 @@
   width: 100%;
   margin-bottom: 56px;
   flex-direction: column;
-  text-align: center;
 
   @include media-up(medium) {
     flex-direction: row;
-    text-align: left;
   }
 }
 
 .Media-media {
-  max-width: 200px;
   margin-bottom: $spacer-lg;
 
   @include media-up(medium) {
+    max-width: 200px;
     padding-right: $spacer-xl;
   }
 }

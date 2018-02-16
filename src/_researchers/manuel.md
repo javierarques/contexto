@@ -1,6 +1,6 @@
 ---
 name: Manuel Martín-Fernández
-job: Contratado Predoctoral FPU
+job: Contratado Predoctoral FPI
 order: 10
 image: /media/researchers/manuel.jpg
 image2x: /media/researchers/manuel@2x.jpg
