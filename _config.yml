@@ -16,7 +16,7 @@ collections:
     output: false
 description: Programa de Investigación, Formación, Intervención y Prevención de la Violencia de Género a través del trabajo con el agresor
 tagline: Programa de Investigación, Formación, Intervención y Prevención de la Violencia de Género a través del trabajo con el agresor
-url: http://javierarques.github.io/contexto/
+url: "https://www.programacontexto.org"
 respository: javierarques/contexto
 permalink: "/:title"
 source: "./src"
@@ -34,4 +34,5 @@ sass:
   sass_dir: _scss
   style: :compressed
 plugins:
-- octopress-autoprefixer
+  - octopress-autoprefixer
+  - jekyll-sitemap
