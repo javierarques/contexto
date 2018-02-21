@@ -11,7 +11,9 @@ nav_order: 5
   <article class="Media">
     {% if post.image %}
     <div class="Media-media">
-      <img src="{{ post.image }}" alt="Imagen {{ post.title}}" />
+      <a href="{{ post.url | prepend:site.baseurl }}">
+        <img src="{{ post.image }}" alt="Imagen {{ post.title}}" />
+      </a>      
     </div>
     {% endif %}
     <div class="Media-body">
