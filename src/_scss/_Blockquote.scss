@@ -1,0 +1,19 @@
+.Blockquote {
+  position: relative;
+  padding-left: 1em;
+  margin-bottom: $spacer;
+  border-left: 0.2em solid $color-brand-tertiary;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 100;
+
+  &:before,
+  &:after {
+    content: '\201C';
+    font-family: 'Sanchez';
+    color: lighten(#000, 40%);
+  }
+  &:after {
+    content: '\201D';
+  }
+}

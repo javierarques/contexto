@@ -1,0 +1,21 @@
+.BulletList {
+  padding: 0;
+}
+
+.BulletList-item {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: $spacer;
+
+  &:before {
+    content: '';
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background-color: $color-brand-tertiary;
+  }
+}
