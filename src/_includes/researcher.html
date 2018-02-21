@@ -9,12 +9,14 @@
       {{ researcher.content }}
     </div>
     {% if researcher.links %}
-      {% for link in researcher.links %}
+      <p class="textAlign-center fromMedium-textAlign-left">
+        {% for link in researcher.links %}
         <a href="{{ link.url }}" class="Button Button--outlinePrimary Button--withIcon marginTop-sm">
           <span class="Button-text marginRight-sm">{{ link.name }}</span>
           {% include link-icon.svg %}
         </a>
-      {% endfor %}
+        {% endfor %}
+      </p>
     {% endif %}
   </div>
 </article>
