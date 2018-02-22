@@ -36,3 +36,4 @@ sass:
 plugins:
   - octopress-autoprefixer
   - jekyll-sitemap
+  - jekyll-minifier
