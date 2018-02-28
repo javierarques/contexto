@@ -1,3 +1,11 @@
+$breakpoint: 769px;
+
+@mixin breakpoint {
+  @media (min-width: 769px) {
+    @content;
+  }
+}
+
 .MainHeader {
   @include clearfix;
   position: absolute;
@@ -12,7 +20,7 @@
   margin: auto;
   align-items: center;
 
-  @include media-up(medium) {
+  @include breakpoint {
     padding: 2rem 1rem;
   }
 }
@@ -25,28 +33,23 @@
     height: auto;
   }
 
-  @include media-up(medium) {
+  @include breakpoint {
     .page-home & {
       display: none;
     }
   }
-
 }
 
 .MainHeader-nav {
   margin-left: auto;
-  @include media-up(medium) {
+  @include breakpoint {
     .page-home & {
       margin: auto;
     }
   }
 }
 
-
-// Dark variation
-
 .MainHeader--dark {
   position: static;
-  //margin-bottom: $spacer-xxl;
   border-bottom: 1px solid #eee;
 }
