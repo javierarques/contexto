@@ -20,7 +20,7 @@ Se proporcionará **certificado de asistencia**, por lo que se ruega, **verifiqu
 
 **Actividad gratuita.**
 
-**PROGRAMA DE LA JORNADA**
+#### PROGRAMA DE LA JORNADA
 
 **9:00 a 9:30. Apertura de puertas.**
 
@@ -28,37 +28,31 @@ Se proporcionará **certificado de asistencia**, por lo que se ruega, **verifiqu
 
 **10:00 a 10:30. Conferencia: **
 
--   *Intervención con agresores de pareja basada en la evidencia científica.*
-
--   *Marisol Lila.* Catedrática de Psicología Social de la Universitat de València.
+Intervención con agresores de pareja basada en la evidencia científica. <br />
+*Marisol Lila. Catedrática de Psicología Social de la Universitat de València.*
 
 **10:30 a 12:00. Mesa: ¿Los agresores pueden cambiar? Programas de prevención e intervención en violencia de género.** *Modera: Marisol Lila.*
 
--   La prevención desde las nuevas masculinidades. Programa Canviem-ho. 
+La prevención desde las nuevas masculinidades. Programa Canviem-ho. <br />
+*Daniel Tejedor. Psicólogo del Proyecto Canviem-ho del Servicio de Atención a Hombres (SAH) del Ayuntamiento de Barcelona.*
 
--   *Daniel Tejedor.* Psicólogo del Proyecto Canviem-ho del Servicio de Atención a Hombres (SAH) del Ayuntamiento de Barcelona.
+La intervención en el ámbito comunitario. Programa CONTEXTO.<br />
+*Elena Terreros. Doctora en psicología. Subdirectora y psicóloga del Programa CONTEXTO.*
 
--   La intervención en el ámbito comunitario. Programa CONTEXTO. 
-
--   *Elena Terreros.* Doctora en psicología. Subdirectora y psicóloga del Programa CONTEXTO.
-
--   La intervención en centros penitenciarios. Programa PRIA.  
-
--   *Andrés Bascones.* Funcionario superior de técnicos de instituciones penitenciarias. Psicólogo en el centro penitenciario de Sevilla.
+La intervención en centros penitenciarios. Programa PRIA.<br />
+*Andrés Bascones. Funcionario superior de técnicos de instituciones penitenciarias. Psicólogo en el centro penitenciario de Sevilla.*
 
 **12:00 a 12:30. Descanso**
 
 **12:30 a 13:00. Presentación Recurso PROGRAMA CONTEXTO-V.** *Modera Elena Terreros.*
 
--   Atención a hombres que de forma voluntaria quieren tratar la violencia que ejercen o han ejercido sobre su pareja o expareja.
-
--   Equipo Programa CONTEXTO.
+Atención a hombres que de forma voluntaria quieren tratar la violencia que ejercen o han ejercido sobre su pareja o expareja.<br />
+*Equipo Programa CONTEXTO.*
 
 **13:00 a 14:00. Conferencia: **
 
--   *Valoración del riesgo de reincidencia y de homicidio en violencia de género.*
-
--   *Juan José López-Ossorio:*Doctor en psicología. Jefe del servicio de estudios. Gabinete de coordinación y estudios. Secretaría de Estado de Seguridad.
+Valoración del riesgo de reincidencia y de homicidio en violencia de género.<br />
+*Juan José López-Ossorio: Doctor en psicología. Jefe del servicio de estudios. Gabinete de coordinación y estudios. Secretaría de Estado de Seguridad.*
 
 **14:00 a 14:30. Acto de clausura** a cargo de Alberto Ibañez. Secretario Autonómico de Inclusión y de la Agencia Valenciana de la Igualdad.
 
