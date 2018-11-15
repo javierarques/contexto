@@ -11,8 +11,7 @@ permalink: 2-jornada-intervencion-violencia-genero-valencia
 
 ### Intervención con hombres que ejercen violencia de género como estrategia de prevención (2ª Edición).
 
-
-En el marco de las actividades por el *Día Internacional para la eliminación de la violencia contra las mujeres* la Universitat de València, la Vicepresidència i Conselleria d'Igualtat i Polítiques Inclusives, el Programa CONTEXTO y la Asociación PSIMA celebran la Jornada: **Intervención con hombres que ejercen** **violencia de género** **como estrategia de** **prevención**. Este acto busca difundir algunos de los acuerdos conseguidos mediante El Pacto Valenciano contra la Violencia de Género y Machista, en concreto, en lo referente a las actuaciones dirigidas al trabajo con los agresores, el **foco del problema**. En estas actuaciones se apuesta por intervenir con los hombres que ejercen violencia hacia las mujeres, **promoviendo un cambio en su conducta** a través de impulsar un tratamiento integral basado en la **reeducación** y la reinserción. Con todo ello, se pretende **prevenir** la **reincidencia** en sus actos violentos y **proteger** así a las **víctimas** de violencia de género.
+En el marco de las actividades por el _Día Internacional para la eliminación de la violencia contra las mujeres_ la Universitat de València, la Vicepresidència i Conselleria d'Igualtat i Polítiques Inclusives, el Programa CONTEXTO y la Asociación PSIMA celebran la Jornada: **Intervención con hombres que ejercen** **violencia de género** **como estrategia de** **prevención**. Este acto busca difundir algunos de los acuerdos conseguidos mediante El Pacto Valenciano contra la Violencia de Género y Machista, en concreto, en lo referente a las actuaciones dirigidas al trabajo con los agresores, el **foco del problema**. En estas actuaciones se apuesta por intervenir con los hombres que ejercen violencia hacia las mujeres, **promoviendo un cambio en su conducta** a través de impulsar un tratamiento integral basado en la **reeducación** y la reinserción. Con todo ello, se pretende **prevenir** la **reincidencia** en sus actos violentos y **proteger** así a las **víctimas** de violencia de género.
 
 El acto tendrá lugar el día 30 de noviembre en el **Paranimf de la Universitat de València**. Centre Cultural La Nau. C/ Universitat, nº2
 
@@ -29,30 +28,30 @@ Se proporcionará **certificado de asistencia**, por lo que se ruega, **verifiqu
 **10:00 a 10:30. Conferencia: **
 
 Intervención con agresores de pareja basada en la evidencia científica. <br />
-*Marisol Lila. Catedrática de Psicología Social de la Universitat de València.*
+_Marisol Lila. Catedrática de Psicología Social de la Universitat de València._
 
-**10:30 a 12:00. Mesa: ¿Los agresores pueden cambiar? Programas de prevención e intervención en violencia de género.** *Modera: Marisol Lila.*
+**10:30 a 12:00. Mesa: ¿Los agresores pueden cambiar? Programas de prevención e intervención en violencia de género.** _Modera: Marisol Lila._
 
 La prevención desde las nuevas masculinidades. Programa Canviem-ho. <br />
-*Daniel Tejedor. Psicólogo del Proyecto Canviem-ho del Servicio de Atención a Hombres (SAH) del Ayuntamiento de Barcelona.*
+_Daniel Tejedor. Psicólogo del Proyecto Canviem-ho del Servicio de Atención a Hombres (SAH) del Ayuntamiento de Barcelona._
 
 La intervención en el ámbito comunitario. Programa CONTEXTO.<br />
-*Elena Terreros. Doctora en psicología. Subdirectora y psicóloga del Programa CONTEXTO.*
+_Elena Terreros. Doctora en psicología. Subdirectora y psicóloga del Programa CONTEXTO._
 
 La intervención en centros penitenciarios. Programa PRIA.<br />
-*Andrés Bascones. Funcionario superior de técnicos de instituciones penitenciarias. Psicólogo en el centro penitenciario de Sevilla.*
+_Andrés Bascones. Funcionario superior de técnicos de instituciones penitenciarias. Psicólogo en el centro penitenciario de Sevilla._
 
 **12:00 a 12:30. Descanso**
 
-**12:30 a 13:00. Presentación Recurso PROGRAMA CONTEXTO-V.** *Modera Elena Terreros.*
+**12:30 a 13:00. Presentación Recurso PROGRAMA CONTEXTO-V.** _Modera Elena Terreros._
 
 Atención a hombres que de forma voluntaria quieren tratar la violencia que ejercen o han ejercido sobre su pareja o expareja.<br />
-*Equipo Programa CONTEXTO.*
+_Equipo Programa CONTEXTO._
 
 **13:00 a 14:00. Conferencia: **
 
 Valoración del riesgo de reincidencia y de homicidio en violencia de género.<br />
-*Juan José López-Ossorio: Doctor en psicología. Jefe del servicio de estudios. Gabinete de coordinación y estudios. Secretaría de Estado de Seguridad.*
+_Juan José López-Ossorio: Doctor en psicología. Jefe del servicio de estudios. Gabinete de coordinación y estudios. Secretaría de Estado de Seguridad._
 
 **14:00 a 14:30. Acto de clausura** a cargo de Alberto Ibañez. Secretario Autonómico de Inclusión y de la Agencia Valenciana de la Igualdad.
 
@@ -66,9 +65,9 @@ Para poder gestionar los certificados de asistencia y el aforo, se require incri
   <a href="https://www.eventbrite.es/e/registro-intervencion-con-hombres-que-ejercen-violencia-de-genero-como-estrategia-de-prevencion-2a-edicion-52446209023" class="Button Button--primary Button--lg fontSize-lg">INSCRIPCIONES</a>
 </div>
 
-<!-- <div class="margin-xl textAlign-center">
-  <a href="{{site.baseurl}}/media/docs/diptico-jornadas-1-marzo.pdf" class="Button Button--outlinePrimary Button--withIcon" download>
+<div class="margin-xl textAlign-center">
+  <a href="{{site.baseurl}}/media/posts/diptico-2-jornadas-intervencion-violencia-genero.pdf" class="Button Button--outlinePrimary Button--withIcon" download>
     <span class="Button-text marginRight-sm">DESCARGAR DÍPTICO</span>
     <span class="Button-icon">{% include download-icon.svg %}</span>
   </a>
-</div> -->
+</div>
