@@ -49,6 +49,11 @@ body {
   scroll-behavior: smooth;
 }
 
+video {
+   width:100%;
+   height:auto;
+}
+
 // Flystyles overwrites
 
 .Button.Button--primary:hover,
