@@ -3,7 +3,7 @@ title: Contexto evaluará una estrategia de intervención específica en hombres
 layout: post
 excerpt: Contexto desarrollará un proyecto financiado por la Delegación del Gobierno para el Plan Nacional sobre Drogas (Ministerio de Sanidad, Consumo y Bienestar Social), para evaluar una estrategia de intervención específica para hombres condenados por violencia de género con problemas de abuso de alcohol y otras drogas.
 published: true
-permalink: 25n-escoltam-tambe
+permalink: intervencion-violencia-genero-drogas-alcohol
 ---
 
 El consumo de alcohol y otras drogas (CPAD) se encuentra entre los factores que aumentan el riesgo de violencia contra la mujer en las relaciones de pareja. Abordar estos factores es clave en la lucha contra la violencia de género. El equipo dirigido por la Catedrática de Psicología Social de la Universitat de València, Marisol Lila, desarrollará un proyecto financiado por la Delegación del Gobierno para el Plan Nacional sobre Drogas (Ministerio de Sanidad, Consumo y Bienestar Social), para evaluar una estrategia de intervención específica para hombres condenados por violencia de género con problemas de abuso de alcohol y otras drogas.
