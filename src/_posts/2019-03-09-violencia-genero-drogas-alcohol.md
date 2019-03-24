@@ -1,5 +1,5 @@
 ---
-title: Contexto evaluará una estrategia de intervención específica en hombres con problemas de abuso de alcohol y otras drogas.
+title: La Universitat de València en colaboración con la Delegación de Gobierno para el Plan Nacional sobre Drogras, evaluará una estrategia de intervención específica en hombres violentos con sus parejas que presentan problemas de abuso de alcohol y otras drogas.
 layout: post
 excerpt: Contexto desarrollará un proyecto financiado por la Delegación del Gobierno para el Plan Nacional sobre Drogas (Ministerio de Sanidad, Consumo y Bienestar Social), para evaluar una estrategia de intervención específica para hombres condenados por violencia de género con problemas de abuso de alcohol y otras drogas.
 published: true
