@@ -35,6 +35,8 @@
 }
 
 .Hero--withBgImage {
+  box-shadow: inset 0px -16px 22px 8px rgba(0,0,0,0.3);
+
   &::before {
     content: '';
     position: absolute;;
