@@ -1,7 +1,7 @@
 ---
 title: 10 años trabajando contra la violencia de género
 layout: post
-excerpt: Culminamos la celebración de nuestro décimo aniversario con la edición de una revista en la que se recogen diferentes testimonio sobre el impacto del programa en profesionales y personas beneficiarias.
+description: Culminamos la celebración de nuestro décimo aniversario con la edición de una revista en la que se recogen diferentes testimonio sobre el impacto del programa en profesionales y personas beneficiarias.
 image: /media/posts/revista-10-aniversario.png
 published: true
 permalink: revista-10-aniversario
