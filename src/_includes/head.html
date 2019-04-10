@@ -11,10 +11,27 @@
     {% endif %}
   </title>
   {% if page.title == "Inicio" %}
+    <meta name="og:title" content="{{ site.tagline  }}">
+    <meta itemprop="name" content="{{ site.tagline }}">
     <meta name="description" content="{{ site.description }}" />
+    <meta itemprop="description" content="{{ site.description }}">
+    <meta name="og:description" content="{{ site.description }}">
   {% else %}
+    <meta name="og:title" content="{{ page.title  }}">
+    <meta itemprop="name" content="{{ page.title }}">
     <meta name="description" content="{{ page.description }}" />
+    <meta itemprop="description" content="{{ page.description }}">
+    <meta name="og:description" content="{{ page.description }}">
   {% endif %}
+
+  {% if page.image %}
+    <meta name="{{ page.image }}" content="image">
+    <meta name="og:image" content="{{ page.image }}">
+    <meta itemprop="image" content="{{ page.image }}">
+  {% endif %}
+
+  <meta name="og:site_name" content="Programa Contexto">
+  <meta name="og:type" content="website">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
