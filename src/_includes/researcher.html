@@ -1,15 +1,12 @@
 <article class="Media">
-  <div class="Media-media textAlign-center fromMedium-textAlign-left">
-    <img src="{{ researcher.image }}" srcset="{{ researcher.image }} 1x, {{ researcher.image2x }} 2x" alt="{{ researcher.name | escape }}" />
-  </div>
   <div class="Media-body">
-    <h3 class="Media-title textAlign-center fromMedium-textAlign-left">{{ researcher.name  }}</h3>
-    <p class="Media-meta textAlign-center fromMedium-textAlign-left">{{ researcher.job  }}</p>
+    <h3 class="Media-title">{{ researcher.name  }}</h3>
+    <p class="Media-meta">{{ researcher.job  }}</p>
     <div class="Media-content">
       {{ researcher.content }}
     </div>
     {% if researcher.links %}
-      <p class="textAlign-center fromMedium-textAlign-left">
+      <p>
         {% for link in researcher.links %}
         <a href="{{ link.url }}" class="Button Button--outlinePrimary Button--withIcon marginTop-sm">
           <span class="Button-text marginRight-sm">{{ link.name }}</span>

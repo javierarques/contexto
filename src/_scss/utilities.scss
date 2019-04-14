@@ -25,6 +25,7 @@ h4, .type-h4 {
 
 h5, .type-h5 {
   @include type-h5;
+  line-height: 1.4,
 }
 
 .type-lead {
