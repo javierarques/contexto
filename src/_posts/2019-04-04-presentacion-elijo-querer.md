@@ -4,7 +4,7 @@ layout: post
 description: El programa Contexto prepara una campaña apelando a los hombres para que tomen la iniciativa y puedan prevenir sus conductas violentas y el maltrato en sus relaciones de pareja. El acto de presentación de la campaña se realizará el 9 de abril, a las 18:00 en la Capilla de la Sapiència del Centre Cultural La Nau Carrer Universitat 2, València.
 published: true
 permalink: presentacion-elijo-querer
-image: /media/posts/elijo-querer-thumb.jpg
+image: media/posts/elijo-querer-thumb.jpg
 ---
 
 ![Programa presentación campaña ElijoQuerer]({{site.baseurl}}/media/posts/presentacion-elijo-querer.png)

@@ -2,7 +2,7 @@
 title: Contexto colabora en la campaña &#35;EscoltamTambé de À Punt
 layout: post
 description: Nos unimos a la campaña &#35;EscoltamTambé en la que À Punt visibiliza a todos y todas los que luchan por eliminar la violencia contra las mujeres con motivo del &#35;25N.
-image: /media/posts/25n-escoltam-tambe.png
+image: media/posts/25n-escoltam-tambe.png
 published: true
 permalink: 25n-escoltam-tambe
 ---
