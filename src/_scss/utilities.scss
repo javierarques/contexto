@@ -67,3 +67,33 @@ h5, .type-h5 {
 .textShadow {
   text-shadow: 0px 1px 0px rgba(0,0,0,.8);
 }
+
+.color-campaign {
+  color: $color-campaign !important;
+}
+
+.borderRadius-lg {
+  border-radius: 6px;
+}
+
+.upToSmall-fontSize-md {
+  @include media-down(small) {
+    font-size: $font-size-md !important;
+  }
+}
+
+.interactive {
+  text-decoration: none;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.3);
+  transform: translateY(0);
+  transition: .3s ease-out;
+
+  &:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.6);
+    transform: translateY(-5px);
+  }
+}
+
+.textDecoration-none {
+  text-decoration: none !important;
+}
