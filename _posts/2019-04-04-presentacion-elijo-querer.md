@@ -1,9 +1,15 @@
 ---
 title: 'Presentación campaña #ElijoQuerer: Por unas relaciones libres de violencia'
-layout: post
-description: El programa Contexto prepara una campaña apelando a los hombres para que tomen la iniciativa y puedan prevenir sus conductas violentas y el maltrato en sus relaciones de pareja. El acto de presentación de la campaña se realizará el 9 de abril, a las 18:00 en la Capilla de la Sapiència del Centre Cultural La Nau Carrer Universitat 2, València.
-published: true
+date: 2019-04-04 00:00:00 Z
 permalink: presentacion-elijo-querer
+categories:
+- src
+layout: post
+description: El programa Contexto prepara una campaña apelando a los hombres para
+  que tomen la iniciativa y puedan prevenir sus conductas violentas y el maltrato
+  en sus relaciones de pareja. El acto de presentación de la campaña se realizará
+  el 9 de abril, a las 18:00 en la Capilla de la Sapiència del Centre Cultural La
+  Nau Carrer Universitat 2, València.
 image: media/posts/elijo-querer-thumb.jpg
 ---
 

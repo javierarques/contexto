@@ -1,10 +1,15 @@
 ---
-title: 'Jornada: Intervención con hombres que ejercen violencia de género como estrategia de prevención (2ª Edición)'
-layout: post
-description: Se celerabrá el día <b>30 de noviembre</b> en el Paranimf de la Universitat de València bajo el marco de las actividades por el <em>Día Internacional para la eliminación de la violencia contra las mujeres</em>.
-image: media/posts/2-jornada-violencia-genero.png
-published: true
+title: 'Jornada: Intervención con hombres que ejercen violencia de género como estrategia
+  de prevención (2ª Edición)'
+date: 2018-11-11 00:00:00 Z
 permalink: 2-jornada-intervencion-violencia-genero-valencia
+categories:
+- src
+layout: post
+description: Se celerabrá el día <b>30 de noviembre</b> en el Paranimf de la Universitat
+  de València bajo el marco de las actividades por el <em>Día Internacional para la
+  eliminación de la violencia contra las mujeres</em>.
+image: media/posts/2-jornada-violencia-genero.png
 ---
 
 ![cartel 2 jornadas violencia de genero]({{site.baseurl}}/media/posts/2-jornada-violencia-genero.png)
