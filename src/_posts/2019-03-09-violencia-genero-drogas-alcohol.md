@@ -1,17 +1,9 @@
 ---
-title: La Universitat de València en colaboración con la Delegación de Gobierno para
-  el Plan Nacional sobre Drogras, evaluará una estrategia de intervención específica
-  en hombres violentos con sus parejas que presentan problemas de abuso de alcohol
-  y otras drogas.
-date: 2019-03-09 00:00:00 Z
-permalink: intervencion-violencia-genero-drogas-alcohol
-categories:
-- src
+title: La Universitat de València en colaboración con la Delegación de Gobierno para el Plan Nacional sobre Drogras, evaluará una estrategia de intervención específica en hombres violentos con sus parejas que presentan problemas de abuso de alcohol y otras drogas.
 layout: post
-description: Contexto desarrollará un proyecto financiado por la Delegación del Gobierno
-  para el Plan Nacional sobre Drogas (Ministerio de Sanidad, Consumo y Bienestar Social),
-  para evaluar una estrategia de intervención específica para hombres condenados por
-  violencia de género con problemas de abuso de alcohol y otras drogas.
+description: Contexto desarrollará un proyecto financiado por la Delegación del Gobierno para el Plan Nacional sobre Drogas (Ministerio de Sanidad, Consumo y Bienestar Social), para evaluar una estrategia de intervención específica para hombres condenados por violencia de género con problemas de abuso de alcohol y otras drogas.
+published: true
+permalink: intervencion-violencia-genero-drogas-alcohol
 ---
 
 El consumo de alcohol y otras drogas (CPAD) se encuentra entre los factores que aumentan el riesgo de violencia contra la mujer en las relaciones de pareja. Abordar estos factores es clave en la lucha contra la violencia de género. El equipo dirigido por la Catedrática de Psicología Social de la Universitat de València, Marisol Lila, desarrollará un proyecto financiado por la Delegación del Gobierno para el Plan Nacional sobre Drogas (Ministerio de Sanidad, Consumo y Bienestar Social), para evaluar una estrategia de intervención específica para hombres condenados por violencia de género con problemas de abuso de alcohol y otras drogas.

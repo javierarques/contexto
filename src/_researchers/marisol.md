@@ -2,11 +2,11 @@
 name: Marisol Lila
 job: Catedrática de Psicología Social de la Universitat de València
 order: 1
-image: "/media/researchers/marisol.jpg"
-image2x: "/media/researchers/marisol@2x.jpg"
+image: /media/researchers/marisol.jpg
+image2x: /media/researchers/marisol@2x.jpg
 links:
-- name: Publicaciones
-  url: https://www.researchgate.net/profile/Marisol_Lila
+  - name: Publicaciones
+    url: https://www.researchgate.net/profile/Marisol_Lila
 ---
 
 Cuenta con una dilatada experiencia en el ámbito de la violencia de género, así como con numerosos trabajos centrados específicamente en el estudio e intervención con hombres condenados por violencia de género. Actualmente, su trabajo se centra en el estudio de los factores psicosociales implicados en la violencia de
