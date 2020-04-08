@@ -7,7 +7,12 @@ permalink: ayuda-violencia-genero-covid19
 image: media/posts/coronavirus.png
 ---
 
-Pedir apoyo ayuda a prevenir, es tu responsabilidad y está en tu mano que esto no ocurra. Te escucharemos, responderemos a tus dudas y te facilitaremos herramientas para afrontar de manera saludable los conflictos.
+#### Pedir apoyo ayuda a prevenir, es tu responsabilidad y está en tu mano que esto no ocurra. Te escucharemos, responderemos a tus dudas y te facilitaremos herramientas para afrontar de manera saludable los conflictos.
+
+###### Atención telefónica: <a href="tel:+34622213731 ">622 213 731</a> | <a href="tel:+34622212469">622 212 469</a>
+
+###### Correo electrónico: <a href="mailto:info@programacontexto.org">info@programacontexto.org</a>
+
 
 Estamos pasando por tiempos extraordinarios debido al COVID-19. Nuestra rutina diaria ha cambiado porque debemos permanecer en nuestras casas. La situación que estamos viviendo nos puede generar sentimientos de incertidumbre sobre el futuro laboral y personal, preocupación, frustración, ansiedad, irritabilidad… que pueden hacer que los conflictos en nuestra relación de pareja se incrementen y que las formas de resolverlos que teníamos no sean efectivas. Es normal que frente a las circunstancias que nos acontecen puedan surgir estos sentimientos. El tiempo de convivencia con la pareja es mayor y es más probable que aparezcan conflictos.
 
@@ -32,3 +37,7 @@ Estamos en una situación atípica dónde es normal sentirse confundido y si no 
 Afrontar esta situación de manera positiva te puede ayudar a mejorar tu capacidad de resolver situaciones problemáticas. Aprender a comunicarme, expresar como me siento, actuar de manera menos impulsiva, pensar antes de actuar, tener en cuenta el daño que puedo ocasionar a mi pareja, a mi familia y a mi mismo me ayuda a construir y mantener relaciones positivas y saludables.
 
 Contacta con CONTEXTO, ayúdanos a ayudarte.
+
+###### Atención telefónica: <a href="tel:+34622213731 ">622 213 731</a> | <a href="tel:+34622212469">622 212 469</a>
+
+###### Correo electrónico: <a href="mailto:info@programacontexto.org">info@programacontexto.org</a>
