@@ -9,7 +9,7 @@ image: media/posts/coronavirus.png
 
 #### Pedir apoyo ayuda a prevenir, es tu responsabilidad y está en tu mano que esto no ocurra. Te escucharemos, responderemos a tus dudas y te facilitaremos herramientas para afrontar de manera saludable los conflictos.
 
-###### Atención telefónica: <a href="tel:+34622213731 ">622 213 731</a> | <a href="tel:+34622212469">622 212 469</a>
+###### Atención telefónica: <a href="tel:+34622213731 ">622 213 731</a> | <a href="tel:+34622212469">622 212 469</a> | <a href="tel:+34963983918">963 983 918</a>
 
 ###### Correo electrónico: <a href="mailto:info@programacontexto.org">info@programacontexto.org</a>
 
@@ -30,7 +30,7 @@ Aquí tienes un listado sobre situaciones que puedes estar viviendo y debes esta
 - Sensación constante de tensión, posibilidad de perder el control y de llegar a agredir físicamente a mi pareja: empujones, agarrar del brazo fuertemente, etc.
 - Sensación de agobio por el hecho de no poder irme: ¿cómo lo expreso? ¿llego a ser desagradable, la critico, me siento molesto si está cerca?
 
-Si te sientes identificado con alguna de estas situaciones y notas que te puedes comportar de forma violenta con tu pareja contacta con nosotras/os mediante los teléfonos **<a href="tel:+34622213731 ">622 213 731</a>** o **<a href="tel:+34622212469">622 212 469</a>** y/o el correo electrónico **<a href="mailto:info@programacontexto.org">info@programacontexto.org</a>**. Te ofreceremos un espacio de escucha, atención y respuestas a tus dudas. Escucharemos la situación que estás viviendo, acompañándote y ofreciéndote alternativas para actuar sin recurrir a la violencia.
+Si te sientes identificado con alguna de estas situaciones y notas que te puedes comportar de forma violenta con tu pareja contacta con nosotras/os mediante los teléfonos **<a href="tel:+34622213731 ">622 213 731</a>**, **<a href="tel:+34622212469">622 212 469</a>**, **<a href="tel:+34963983918">963 983 918</a>** y/o el correo electrónico **<a href="mailto:info@programacontexto.org">info@programacontexto.org</a>**. Te ofreceremos un espacio de escucha, atención y respuestas a tus dudas. Escucharemos la situación que estás viviendo, acompañándote y ofreciéndote alternativas para actuar sin recurrir a la violencia.
 
 Estamos en una situación atípica dónde es normal sentirse confundido y si no tomamos medidas la situación nos puede sobrepasar. Pedir ayuda es una forma adecuada de afrontar situaciones de incertidumbre o desconocidas.
 
@@ -38,6 +38,6 @@ Afrontar esta situación de manera positiva te puede ayudar a mejorar tu capacid
 
 Contacta con CONTEXTO, ayúdanos a ayudarte.
 
-###### Atención telefónica: <a href="tel:+34622213731 ">622 213 731</a> | <a href="tel:+34622212469">622 212 469</a>
+###### Atención telefónica: <a href="tel:+34622213731 ">622 213 731</a> | <a href="tel:+34622212469">622 212 469</a> | <a href="tel:+34963983918">963 983 918</a>
 
 ###### Correo electrónico: <a href="mailto:info@programacontexto.org">info@programacontexto.org</a>
