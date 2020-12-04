@@ -1,6 +1,6 @@
 ---
 name: Sara Vitoria Estruch
-job: Contratada Predoctoral, Universidad de Valencia
+job:  Doctora en Psicología. Universidad de Valencia (eliminar que actualmente se encuentra haciendo el programa de doctorado)
 order: 13
 image: /media/researchers/sara.jpg
 image2x: /media/researchers/sara@2x.jpg

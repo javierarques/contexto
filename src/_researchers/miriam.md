@@ -1,6 +1,6 @@
 ---
 name: Miriam Marco
-job: Contratada Predoctoral FPU
+job: Profesora Ayudante Doctora de Psicología Social de la Universidad de Valencia
 order: 9
 image: /media/researchers/miriam.jpg
 image2x: /media/researchers/miriam@2x.jpg

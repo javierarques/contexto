@@ -1,6 +1,6 @@
 ---
 name: Faraj A. Santirso
-job: Contratado Predoctoral FPU
+job: Doctor en Psicologia, Universidad de Valencia
 order: 10
 image: /media/researchers/faraj.jpg
 image2x: /media/researchers/faraj@2x.jpg

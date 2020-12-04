@@ -1,6 +1,6 @@
 ---
 name: Manuel Martín-Fernández
-job: Contratado Predoctoral FPI
+job: Profesor Ayudante Doctor de Metodología y Psicología Social de la Universidad Autónoma de Madrid
 order: 10
 image: /media/researchers/manuel.jpg
 image2x: /media/researchers/manuel@2x.jpg

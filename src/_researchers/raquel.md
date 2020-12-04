@@ -1,6 +1,6 @@
 ---
 name: Raquel Conchell
-job: Doctora en Psicología. Profesora Asociada Psicología Social, Universidad de Valencia
+job: Profesora Ayudante Doctora de Educación Comparada e Historia de la Educación de la Universidad de Valencia
 order: 4
 image: /media/researchers/raquel.jpg
 image2x: /media/researchers/raquel@2x.jpg
