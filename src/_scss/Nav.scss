@@ -8,7 +8,7 @@
 
 .Nav-menu {
   @include inline-list();
-  font-size: rem(15px);
+  font-size: rem(14px);
   text-transform: uppercase;
 
   @include media-down(medium) {
