@@ -1,6 +1,6 @@
 ---
 name: Sara Vitoria Estruch
-job:  Doctora en Psicología. Universidad de Valencia (eliminar que actualmente se encuentra haciendo el programa de doctorado)
+job:  Doctora en Psicología. Universidad de Valencia
 order: 13
 image: /media/researchers/sara.jpg
 image2x: /media/researchers/sara@2x.jpg
