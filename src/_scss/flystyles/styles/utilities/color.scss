@@ -1,0 +1,9 @@
+//
+//  Color utilities
+//
+
+@each $color in map-keys($colors) {
+  .color-#{$color} {
+    color: map-get($colors, $color) !important;
+  }
+}

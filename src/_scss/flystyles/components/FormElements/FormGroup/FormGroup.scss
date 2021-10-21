@@ -1,0 +1,43 @@
+//
+//  forGroup component
+//  gather all the components that a form field needs
+//
+
+@import "./config";
+@import "../../../styles/mixins/all";
+
+.FormGroup {
+  display: block;
+  margin: $form-group-margin;
+}
+
+.FormGroup--inline {
+  display: inline-block;
+}
+
+.FormGroup-hint {
+  display: block;
+  margin: $form-group-hint-margin;
+  font-size: $form-group-hint-font-size;
+  font-weight: $form-group-hint-font-weight;
+  line-height: $form-group-hint-line-height;
+  color: $form-group-hint-color;
+}
+
+.FormGroup-feedback {
+  display: none;
+  margin: 0;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semi-bold;
+  color: $form-group-description-color;
+
+  @include state-variation(error) {
+    display: block;
+    color: $color-danger;
+  }
+
+  @include state-variation(success) {
+    display: block;
+    color: $color-success;
+  }
+}

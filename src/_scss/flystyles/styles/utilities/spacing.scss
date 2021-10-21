@@ -1,0 +1,94 @@
+//
+//  Spacing utilities
+//
+// Example: maginTop-0
+
+@each $size in map-keys($spacers) {
+  $current-space: map-get($spacers, $size);
+
+  .margin-#{$size} {
+    margin: $current-space !important;
+  }
+  .marginTop-#{$size} {
+    margin-top: $current-space !important;
+  }
+  .marginRight-#{$size} {
+    margin-right: $current-space !important;
+  }
+  .marginBottom-#{$size} {
+    margin-bottom: $current-space !important;
+  }
+  .marginLeft-#{$size} {
+    margin-left: $current-space !important;
+  }
+
+  .padding-#{$size} {
+    padding: $current-space !important;
+  }
+  .paddingTop-#{$size} {
+    padding-top: $current-space !important;
+  }
+  .paddingRight-#{$size} {
+    padding-right: $current-space !important;
+  }
+  .paddingBottom-#{$size} {
+    padding-bottom: $current-space !important;
+  }
+  .paddingLeft-#{$size} {
+    padding-left: $current-space !important;
+  }
+}
+
+// Responsive classes
+//
+// Example: fromSmall-maginBottom-xl
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-up($breakpoint) {
+    @each $size in map-keys($spacers) {
+      .from#{capitalize($breakpoint)}-margin-#{$size} {
+        margin: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-marginTop-#{$size} {
+        margin-top: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-marginBottom-#{$size} {
+        margin-bottom: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-marginLeft-#{$size} {
+        margin-left: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-marginRight-#{$size} {
+        margin-right: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-padding-#{$size} {
+        padding: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-paddingTop-#{$size} {
+        padding-top: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-paddingBottom-#{$size} {
+        padding-bottom: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-paddingLeft-#{$size} {
+        padding-left: map-get($spacers, $size) !important;
+      }
+      .from#{capitalize($breakpoint)}-paddingRight-#{$size} {
+        padding-right: map-get($spacers, $size) !important;
+      }
+    }
+  }
+}
+
+// Margin Horizontal (left and right)
+
+.marginHorizontal-neg {
+  margin-right: -$spacer;
+  margin-left: -$spacer;
+}
+
+// Margin Vertical (top and bottom)
+.marginVertical-md {
+  margin-right: $spacer !important;
+  margin-left: $spacer !important;
+}

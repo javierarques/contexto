@@ -34,6 +34,5 @@ sass:
   sass_dir: _scss
   style: :compressed
 plugins:
-  - octopress-autoprefixer
   - jekyll-sitemap
   - jekyll-minifier

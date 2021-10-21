@@ -1,0 +1,11 @@
+@import "./config";
+
+.Label {
+  margin: $label-margin;
+  font-size: $label-font-size;
+  font-weight: $label-font-weight;
+  line-height: $label-line-height;
+  color: $label-color;
+  text-transform: $label-text-transform;
+  cursor: pointer;
+}

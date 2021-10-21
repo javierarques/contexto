@@ -1,0 +1,32 @@
+//
+//  Align utilities
+//
+
+// Floats
+
+.float-left {
+  float: left !important;
+}
+.float-none {
+  float: none !important;
+}
+.float-right {
+  float: right !important;
+}
+
+// Responsive classes
+//
+// fromSmall-float-let
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-up($breakpoint) {
+    .from#{capitalize($breakpoint)}-float-left {
+      float: left !important;
+    }
+    .from#{capitalize($breakpoint)}-float-right {
+      float: right !important;
+    }
+    .from#{capitalize($breakpoint)}-float-none {
+      float: none !important;
+    }
+  }
+}

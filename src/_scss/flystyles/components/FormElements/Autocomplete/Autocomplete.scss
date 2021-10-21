@@ -1,0 +1,89 @@
+//
+//  Autocomplete component
+//
+
+@import "./config";
+@import "../../../styles/mixins/all";
+
+.Autocomplete {
+  position: relative;
+}
+
+.Autocomplete-search {
+  @include form-field-select;
+  @include form-field-size($form-field-height-base, $font-size-base);
+
+  .is-searching & {
+    background-image: svg-url(map-get($icons, arrowUp));
+    border: 1px solid $form-field-border-color-focus !important;
+  }
+
+  .Autocomplete--searchDisabled & {
+    background-color: $form-field-background;
+
+    &:hover {
+      border-color: $form-field-border-color-hover;
+    }
+
+    &:focus {
+      border-color: $form-field-border-color-focus;
+    }
+  }
+}
+
+.Autocomplete-search {
+  @include state-variation("error") {
+    border-color: $color-danger;
+  }
+
+  @include state-variation("success") {
+    border-color: $color-success;
+  }
+}
+
+.Autocomplete-options {
+  position: absolute;
+  top: calc(100% - 3px);
+  width: 100%;
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  list-style: none;
+  visibility: hidden;
+  background: #fff;
+  border: 1px solid $form-field-border-color;
+  border-top: 1px solid lighten($form-field-border-color, 10%);
+  border-bottom-right-radius: $form-field-border-radius;
+  border-bottom-left-radius: $form-field-border-radius;
+  opacity: 0;
+  transition: $autocomplete-options-transition;
+  z-index: 1;
+
+  .is-searching & {
+    max-height: $autocomplete-visible-options * $autocomplete-option-height;
+    visibility: visible;
+    border: 1px solid $form-field-border-color-focus !important;
+    border-top: 1px solid lighten($form-field-border-color, 10%) !important;
+    opacity: 1;
+  }
+}
+
+.Autocomplete-option {
+  height: $autocomplete-option-height;
+  padding: 0 rem(8px);
+  overflow: hidden;
+  font-size: rem(15px);
+  line-height: $autocomplete-option-height;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &.is-active {
+    color: #fff;
+    background-color: $color-brand-primary;
+  }
+
+  .is-highlighted {
+    border-bottom: 1px dotted #aaa;
+  }
+}
