@@ -17,7 +17,7 @@ En el Programa Contexto pretendemos dar visibilidad a la necesidad e importancia
 
 En esta ocasión celebramos las **Jornadas del XV Aniversario** , donde profesionales internacionales especializados en distintas disciplinas, compartirán su trabajo y avances con nosotras desde una visión integral, con el objetivo de mejorar en la lucha contra la violencia hacia las mujeres. Con la realización de estas jornadas pretendemos poner en común el trabajo de diferentes expertos y expertas y así poder seguir avanzando en la construcción de una sociedad igualitaria y libre de violencia.
 
-El acto se llevará a cabo los días jueves **11 y viernes 12 de noviembre** en el Aula Magna, Facultad de Medicina y Odontología (Universidad de Valencia)
+El acto se llevará a cabo los días **jueves 11 y viernes 12 de noviembre** en el Aula Magna, Facultad de Medicina y Odontología (Universidad de Valencia)
 
 Avenida Blasco Ibáñez, 15, planta 0
 
