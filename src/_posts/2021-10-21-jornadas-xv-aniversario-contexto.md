@@ -27,7 +27,9 @@ Se proporcionará **Certificado de asistencia** , por lo que se ruega, verifique
 
 Para más información: info@programacontexto
 
-<video class="marginBottom-xl" src="/media/posts/ContextoSUMA_01.mp4" autoplay loop></video>
+<video class="marginBottom-xl" playsinline autoplay loop muted style="min-width:100%; min-height:100%;" >
+ 	<source type="video/mp4" src="/media/posts/ContextoSUMA_01.mp4">
+</video>
 
 #### PROGRAMA DE LA JORNADA
 
@@ -123,5 +125,6 @@ Para poder gestionar los certificados de asistencia y el aforo, se require incri
     <span class="Button-icon">{% include download-icon.svg %}</span>
   </a>
 </div>
-
-<video class="marginBottom-xl" src="/media/posts/ContextoSUMA_02.mp4" autoplay loop></video>
+<video playsinline autoplay loop muted style="min-width:100%; min-height:100%;" class="marginBottom-xl">
+ 	<source type="video/mp4" src="/media/posts/ContextoSUMA_02.mp4">
+</video>
