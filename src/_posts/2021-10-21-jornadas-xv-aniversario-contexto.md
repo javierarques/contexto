@@ -49,9 +49,7 @@ Autoridades: Magnifica Rectora de la Universidad de Valencia,  **Mavi Mestre** y
 
 *Conferencia*
 
-Programa Contexto: Quince años en perspectiva.
-
-Dra. Marisol Lila, Catedrática de Psicología Social de la Universitat de València y directora del Programa Contexto.
+Programa Contexto: Quince años en perspectiva. **Dra. Marisol Lila, Catedrática de Psicología Social de la Universitat de València y directora del Programa Contexto.**
 
 **11.00 – 11.30**
 
@@ -95,7 +93,7 @@ Descanso.
 
 *Mesa redonda*
 
-Atención e intervención con víctimas de violencia de género. Moderada por la Dra. María Victoria Lorenzo.
+Atención e intervención con víctimas de violencia de género. **Moderada por la Dra. María Victoria Lorenzo**.
 
 *Ponencias*
 
@@ -105,7 +103,7 @@ Hacia la salida de la violencia de género. **Laura Bosch Fenellosa, psicóloga.
 
 Enfoque de género con perspectiva de infancia como herramienta de prevención **. Yolanda Carmona Rueda, coordinadora de Programas de Lucha contra la Pobreza Infantil España. Save the Children.**
 
-**Abordaje de la Violencia de Género con Adolescentes dentro del Sistema de Protección a la Infancia y la Adolescencia. Maria Victoria Lorenzo, doctora en psicología y psicóloga en diversos servicios del Sistema de Protección a la Infancia y la Adolescencia.**
+Abordaje de la Violencia de Género con Adolescentes dentro del Sistema de Protección a la Infancia y la Adolescencia. **Maria Victoria Lorenzo, doctora en psicología y psicóloga en diversos servicios del Sistema de Protección a la Infancia y la Adolescencia.**
 
 **13.00 – 14.00**
 
