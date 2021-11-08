@@ -45,6 +45,9 @@ Apertura de puertas y recepción de asistentes.
 
 Autoridades: Magnifica Rectora de la Universidad de Valencia,  **Mavi Mestre** y de la Honorable Señora Vicepresidenta y Consellera de Igualdad y Políticas Inclusivas, Secretaría y Portavoz del Consell,  **Mónica Oltra**.
 
+A cargo de la Vicerrectora de Igualdad de la Universitat de València, **Elena Martínez**, el Il. Sr. Secretario Autonómico de Igualdad y Diversidad de la Consellería de Igualdad y Políticas Inclusivas de la Generalitat Valenciana, **Rubén Sancho**, el Decano de la facultad de psicología de la Universitat de València, **Antonio Ferrer** y la Directora del Programa Contexto, **Marisol Lila**. 
+
+
 **10.00 – 11.00**
 
 *Conferencia*
@@ -97,7 +100,7 @@ Atención e intervención con víctimas de violencia de género. **Moderada por 
 
 *Ponencias*
 
-Detección y derivación de mujeres en situación de maltrato desde el ámbito sanitario. **Ángela Escribano, doctora en derechos humanos, democracia y justicia internacional, coordinadora y docente en violencia de género del personal sanitario de la GVA.**
+Detección y derivación de mujeres en situación de maltrato desde el ámbito sanitario. **Ángela Escribano, doctora en derechos humanos, democracia y justicia internacional, coordinadora y docente en violencia de género del personal sanitario de la GVA. Asesora en violencia de género e igualdad en la Delegación de Gobierno de la CV.**
 
 Hacia la salida de la violencia de género. **Laura Bosch Fenellosa, psicóloga. Centro de Recuperación Integral para Mujeres y menores víctimas de la violencia de género Carmen Alborch, Valencia.**
 
@@ -109,7 +112,13 @@ Abordaje de la Violencia de Género con Adolescentes dentro del Sistema de Prote
 
 *Conferencia.*
 
-Redes y estándares internacionales para la intervención con hombres que ejercen violencia de género. **Heinrich Geldschläger, director de investigación y proyectos internacionales de la Asociación CONEXUS (Barcelona) y miembro de la junta directiva de la Red Europea para el trabajo con agresores de violencia de género WWP-EN (European Network for the Work with Perpetrators of domestic violence).**
+Interviniendo en violencia de género con hombres en tratamiento por abuso de sustancias. **Dra. Gail Gilchrist, Catedrática en Investigación en Adicciones y Salud del Instituto de Psiquiatría, Psicología y Neurociencias del King´s College London.**
+
+**14.00 – 14.15**
+
+*Acto de clausura.*
+
+**A cargo la Delegada de Gobierno en la Comunidad Valenciana, Gloria Calero Albal.**
 
 Para poder gestionar los certificados de asistencia y el aforo, se require incripción previa:
 
